@@ -1,0 +1,16 @@
+name = "Aciklab"
+license = "GPL v2.1"
+licenselink = "https://github.com/aciklab/Site/blob/master/LICENSE"
+description = "Aciklab Hugo Temasi"
+homepage = "https://www.aciklab.org/"
+tags = []
+features = []
+min_version = "0.68"
+
+[author]
+  name = "Dogukan OKSUZ"
+  homepage = "//github.com/dogukanoksuz"
+
+[original]
+  name = "Hakki Dizdar"
+  homepage = "//github.com/enjloezz"

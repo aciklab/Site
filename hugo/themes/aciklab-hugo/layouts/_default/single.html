@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ partial "nav.html" . }}
+<section id="content" class="d-flex">
+    <div class="container{{ if eq .Params.wide_container true}}-fluid{{end}} my-5">
+        <div class="row" data-aos="fade-up">
+            {{ if ne .Params.title_hidden true }}<h1 class="mb-3">{{ .Title }}</h1>{{ end }}
+            {{ if ne .Params.date nil }}
+            {{ $dateFormat := "02/01/2006" }}
+            <p class="blog-post-meta mb-5"><i class="fa fa-calendar mr-2"></i><time {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>{{ .Date.Format $dateFormat }}</time></p>
+            {{ end }}
+            {{ .Content}}
+        </div>
+    </div>
+</section>
+{{ end }}

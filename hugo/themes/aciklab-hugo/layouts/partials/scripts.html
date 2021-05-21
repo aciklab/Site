@@ -1,0 +1,46 @@
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.1/venobox.min.js"
+  integrity="sha512-6mm1Gra+9mSztlk6Q45F1soEHmkduyd2ponCIWNo5pr0lgcr8d79GQjQ3Nw0uRR3/+y/OZGklAi38yE1QSNpCw=="
+  crossorigin="anonymous"
+></script>
+<script type="text/javascript">
+  jQuery(document).ready(function ($) {
+    $(function () {
+      $(".venobox").venobox();
+      AOS.init({
+        once: true,
+      });
+    });
+    function normalizeSlideHeights() {
+      $(".carousel").each(function () {
+        const items = $(".carousel-item", this);
+        items.css("min-height", 0);
+        const maxHeight = Math.max.apply(
+          null,
+          items
+            .map(function () {
+              return $(this).outerHeight();
+            })
+            .get()
+        );
+        items.css("min-height", maxHeight + "px");
+      });
+    }
+    $(window).on("load resize orientationchange", normalizeSlideHeights);
+  });
+</script>

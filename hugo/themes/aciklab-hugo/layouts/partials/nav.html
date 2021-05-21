@@ -1,0 +1,18 @@
+<section id="nav" class="d-flex" style="background-color: rgb(242, 242, 242);">
+    <div class="container">
+        <div class="row">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.nav }}
+            <a href="{{ .URL }}"
+                class="col-lg-6 col-12 d-flex py-5 justify-content-center align-items-center block {{ if $currentPage.IsMenuCurrent "nav" . }} active{{ end }}"
+                {{ if eq .Weight 1 }}data-aos="fade-right" {{else}}data-aos="fade-left" {{end}} data-aos-delay="100">
+                <div class="col-4 text-center"><i class="fa {{.Pre}} fa-6x"></i></div>
+                <div class="col-8">
+                    <h4 class="bold">{{ .Name }}</h4>
+                    <p>{{ .Post }}</p>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</section>

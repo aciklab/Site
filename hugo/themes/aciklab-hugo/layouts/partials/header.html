@@ -1,0 +1,45 @@
+{{ $params := .Site.Params }}
+{{ $navbar := $params.navbar }}
+<header id="header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg py-3 px-0">
+            <a href="{{ $params.navbarlogo.link | relURL }}" class="d-flex flex-lg-row flex-column navbar-brand">
+                {{ range $i, $v := $params.navbarlogo }}
+                <img src="{{ printf "/images/%s" .image | relURL }}" alt="{{ $params.description }}"
+                    class="img-fluid{{ if eq $i "sub" }} img-fluid ml-3 align-self-lg-end align-self-center mt-n2 mt-lg-0{{ end }}">
+                {{ end }}
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Menüyü aç">
+                <span class="fa-2x fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    {{ if .HasChildren }}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link pt-0 pb-0 dropdown-toggle" href="#" id="wdropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ .Name }}
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="wdropdown">
+                            {{ range .Children }}
+                            <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+                            {{ end }}
+                        </div>
+                    </li>
+                    {{ else }}
+                    <li class="nav-item"><a
+                            class="nav-link pt-0 pb-0 {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}"
+                            href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+        </nav>
+    </div>
+    {{ if and .IsHome .Site.Params.hero }}
+        {{ partial "hero.html" . }}
+    {{ end }}
+</header>

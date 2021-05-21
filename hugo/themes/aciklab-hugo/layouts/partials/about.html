@@ -1,0 +1,31 @@
+{{ $about := .Site.Params.section_about }}
+<section id="about">
+    <div class="container">
+        <div class="row aos-init aos-animate" data-aos="fade-up">
+            <div class="col-lg-6 col-12 px-0 pt-5 pb-5 d-flex justify-content-lg-end justify-content-center align-items-center">
+                <a class="venobox" data-autoplay="true" data-vbtype="video" href="{{ $about.video_link }}">
+                    <img src="{{ (resources.Get (printf "/images/%s" $about.thumbnail)).RelPermalink }}" class="img-fluid" />
+                </a>
+            </div>
+            <div class="col-lg-6 col-12 p-5 d-flex flex-column align-items-center align-items-lg-start">
+                <h1 class="text-left">{{ $about.title }}</h1>
+                <p>{{ safeHTML $about.text }}</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container-fluid">
+        <div class="row banner py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-12 align-items-center d-flex justify-content-start text-center text-lg-left">
+                        <span>Açık kaynak ürünleri ile ilgili bilgi için iletişime geçin!</span>
+                    </div>
+                    <div class="col-lg-4 col-12 d-flex justify-content-lg-end justify-content-center">
+                        <a href="{{ ref . "iletisim.md" }}" class="btn btn-primary btn-color">Deneme Sürümü</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,8 @@
+<div class="container mt-5">
+    <div class="row">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+        {{ range $paginator.Pages }}
+            {{ .Render "truncated_post" }}
+        {{ end }}
+    </div>
+</div>

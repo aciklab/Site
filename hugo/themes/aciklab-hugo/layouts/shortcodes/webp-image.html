@@ -1,0 +1,4 @@
+<picture>
+    <source srcset="{{ printf "/images/%s.webp" (.Get 0) | relURL }}" type="image/webp">
+    <img src="{{ printf "/images/%s.png" (.Get 0) | relURL }}" class="img-fluid mx-auto d-block">
+</picture>
