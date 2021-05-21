@@ -49,6 +49,10 @@ params:
       image: aciklab_white.png
     sub:
       image: sub.svg
+  banner:
+    text: Açık kaynak ürünleri ile ilgili bilgi için iletişime geçin!
+    button_text: Deneme Sürümü
+    button_link: "/iletisim"
   hero:
     - title: Eğitimler
       subtitle: Açık kaynak kodlu sistemler hakkında bilgi birikiminizi arttırın ve hakim olun.

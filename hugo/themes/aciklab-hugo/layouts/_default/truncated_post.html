@@ -3,7 +3,12 @@
 <article class="blog-post col-md-6 mb-5">
   <header>
     <h2 class="blog-post-title" dir="auto"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
-    <p class="blog-post-meta"><time {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>{{ .Date.Format $dateFormat }}</time></p>
+    <div class="blog-post-meta mb-3 w-100">
+      <i class="fa fa-calendar mr-2"></i>
+      <time {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>
+        {{ .Date.Format $dateFormat }}
+      </time>
+    </div>
   </header>
   {{ .Summary | truncate 250 }}
   <a href='{{ .Permalink }}' class="d-block mt-2 font-weight-bold"><i class="fa fa-chevron-right mr-2"></i>Devamını oku...</a>

@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {{ $title := print .Site.Title " | " .Title }} {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    {{ $title := print .Title " | " .Site.Title }} {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
     {{ template "_internal/google_analytics_async.html" . }}
     {{ if eq .Site.Params.openGraph true }}
@@ -13,6 +13,8 @@
       content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Placeholder Description{{ end }}"
     />
     {{ $style := resources.Get "scss/main.scss" | resources.ToCSS | minify -}}
-    <style>{{ $style.Content | safeCSS }}</style>
+    <style>
+      {{ $style.Content | safeCSS }}
+    </style>
   </head>
 </html>

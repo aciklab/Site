@@ -1,12 +1,13 @@
 {{ define "main" }}
 <main id="main">
     {{ partial "nav.html" . }}
+
     {{ if .Site.Params.section_about }}
     {{ partial "about.html" . }}
     {{ end }}
+
+    {{ partial "banner.html" . }}
     {{ partial "blog_posts.html" . }}
-    {{ if .IsHome }}
     {{ partial "brands.html" . }}
-    {{ end }}
 </main>
 {{ end }}
