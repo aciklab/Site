@@ -4,7 +4,7 @@ title_hidden: true
 menu:
   main:
 
-    weight: 4
+    weight: 6
 
 ---
 

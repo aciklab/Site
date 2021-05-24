@@ -7,11 +7,10 @@
                     <img src="{{ (resources.Get (printf "/images/%s" $about.thumbnail)).RelPermalink }}" class="img-fluid" />
                 </a>
             </div>
-            <div class="col-lg-6 col-12 px-5 pb-5 d-flex flex-column align-items-center align-items-lg-start">
+            <div class="col-lg-6 col-12 pl-5 pb-5 d-flex flex-column align-items-center align-items-lg-start">
                 <h1 class="text-left">{{ $about.title }}</h1>
                 <p>{{ safeHTML $about.text }}</p>
             </div>
         </div>
-        
     </div>
 </section>

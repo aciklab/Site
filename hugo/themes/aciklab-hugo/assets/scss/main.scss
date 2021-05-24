@@ -425,3 +425,61 @@ section#comparison {
 .collapsed .fa-chevron-down {
     transform: rotate(-90deg);
 }
+
+.tab-button {
+    background-color: #54c597;
+    padding: 10px;
+    margin-right: 8px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s all;
+    font-size: 18px;
+    font-weight: 600;
+
+    &:hover {
+        background-color: #3aac7e;
+        color: #fff;
+    }
+}
+
+.p-0 > .active {
+    background-color: #3aac7e;
+}
+
+.uyumlu {
+    color: green;
+}
+
+.yariuyumlu {
+    color: orange;
+}
+
+thead {
+    background-color: #7a49c6;
+    color: #fff;
+    border-radius: 0 5px 0 5px!important;
+}
+
+.paginate_button {
+    margin-top: 10px;
+    border-radius: 5px!important;
+    background-color: #3aac7e!important;
+    color: #fff !important;
+}
+
+.paginate_button.disabled {
+    color: #fff !important;
+}
+
+.page-item.active .page-link {
+    background-color: #3aac7e!important;
+    border-color: #3aac7e!important;
+}
+
+.page-link {
+    color: #222;
+
+    &:hover {
+        color: #222;
+    }
+}
