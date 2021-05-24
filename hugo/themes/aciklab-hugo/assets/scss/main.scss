@@ -379,6 +379,10 @@ section#comparison {
     .fa-6x {
         font-size: 4em !important;
     }
+
+    .egitim-box .fa-chevron-down, .egitim-box-uzman .fa-chevron-down {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -388,6 +392,12 @@ section#comparison {
 
     #chart {
         padding: 0 15px !important;
+    }
+
+    .egitim-box .fa, .egitim-box-uzman .fa {
+        &:first-of-type {
+            display: none;
+        }
     }
 }
 
@@ -403,4 +413,15 @@ section#comparison {
         margin-left: -30px;
         margin-right: -45px;
     }
+}
+
+@media only screen and (min-width: 576px) {
+    .egitim-row {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+}
+
+.collapsed .fa-chevron-down {
+    transform: rotate(-90deg);
 }
