@@ -2,7 +2,7 @@
 date: 2020-08-30
 linktitle: Açık Kaynak Kodlu Liman MYS Çekirdek sürümü duyuruldu
 title: Açık Kaynak Kodlu Liman MYS Çekirdek sürümü duyuruldu
-weight: 10
+image: liman-mys-dns-1.png
 ---
 
 Liman MYS Çekirdek Sürümü, Liman MYS 1.3 Sürüm Duyurusu ile birlikte duyurulmuştur. Liman MYS Çekirdek sürüm'ün kaynak kodlarına github limanmys üzerinden erişilebilmektedir.

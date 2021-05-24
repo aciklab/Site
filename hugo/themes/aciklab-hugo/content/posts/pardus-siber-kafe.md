@@ -2,7 +2,6 @@
 date: 2019-07-24
 linktitle: HAVELSAN Pardus Siber Kafede
 title: HAVELSAN Pardus Siber Kafede
-weight: 10
 ---
 
 Türkiye Siber Güvenlik Kümelenmesi üye firmalarını farklı sektörlerle bir araya getirme hedefiyle düzenlenen Siber Kafe Etkinliklerinin 6’ncısını "Savunma Sanayiinde Siber Güvenlik" teması ile 24 Temmuz 2019 tarihinde SSB Nuri Demirağ Salonunda gerçekleştirildi.

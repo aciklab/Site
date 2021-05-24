@@ -42,5 +42,11 @@
       });
     }
     $(window).on("load resize orientationchange", normalizeSlideHeights);
-  });
+    $(".dropdown").hover(function(){
+      var dropdownMenu = $(this).children(".dropdown-menu");
+      if(dropdownMenu.is(":visible")){
+          dropdownMenu.parent().toggleClass("show");
+      }
+    });
+  });    
 </script>

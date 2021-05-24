@@ -2,14 +2,29 @@
 
 <article class="blog-post col-md-6 mb-5">
   <header>
-    <h2 class="blog-post-title" dir="auto"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+    <h2 class="blog-post-title" dir="auto"><a href="{{ .Permalink }}" target="_blank">{{ .Title | markdownify }}</a></h2>
     <div class="blog-post-meta mb-3 w-100">
       <i class="fa fa-calendar mr-2"></i>
       <time {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>
         {{ .Date.Format $dateFormat }}
       </time>
     </div>
+    <div class="blog-thumbnail">
+      <a href="{{ .Permalink }}" target="_blank">
+      {{ if .Params.image }}
+        {{ $original := print "images/haberler/" (path.Base .Params.image) }}
+        {{ $originalImg := resources.Get $original }}
+        {{ if $originalImg }}
+            {{ $thumbnailImg := $originalImg.Resize "600x300" }}
+            {{ printf `<img src="%s" alt="%s" class="img-fluid mb-3">` 
+                $thumbnailImg.RelPermalink .Title | safeHTML }}
+        {{ end }}
+      {{ else }}
+        <img src="/images/no-image.png" alt="{{ .Title }}" class="img-fluid mb-3">
+      {{ end }}
+      </a>
+    </div>
   </header>
   {{ .Summary | truncate 250 }}
-  <a href='{{ .Permalink }}' class="d-block mt-2 font-weight-bold"><i class="fa fa-chevron-right mr-2"></i>Devamını oku...</a>
+  <a href='{{ .Permalink }}' target="_blank" class="d-block mt-2 font-weight-bold"><i class="fa fa-chevron-right mr-2"></i>Devamını oku...</a>
 </article>

@@ -169,6 +169,7 @@ section#nav {
 
 .btn-color {
     background: #1e7a54;
+    border-color: #1e7a54;
 
     &:hover {
         background: #196646;
@@ -181,6 +182,7 @@ section#nav {
 
 .btn-color-low {
     background: #54c597;
+    border-color: #1e7a54;
 
     &:hover {
         background: #41bf8b;
@@ -332,4 +334,15 @@ section#comparison {
     .fa-times {
         color: red;
     }
+}
+
+.dropdown {
+    transition: all 0.3s;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    margin-top: 0;
 }

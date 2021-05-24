@@ -2,8 +2,6 @@
 date: 2020-02-24
 linktitle: MEB BİLSEM EĞİTİMİ
 title: MEB BİLSEM EĞİTİMİ
-weight: 10
-type: posts
 ---
 
 Milli Eğitim Bakanlığı Özel Eğitim ve Rehberlik Hizmetleri Genel Müdürlüğü ile HAVELSAN arasında imzalanan protokol kapsamında Bilim ve Sanat Eğitim Merkezi (BİLSEM) öğretmenlerinin eğitimi HAVELSAN’da başladı.

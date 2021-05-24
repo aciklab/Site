@@ -83,7 +83,7 @@ params:
     socialmedia:
       - link: https://github.com/aciklab
         icon: "fa fa-github"
-      - link: https://www.aciklab.com/
+      - link: https://www.aciklab.org/
         icon: "fa fa-globe"
       - link: mailto:aciklab@havelsan.com.tr
         icon: "fa fa-envelope"
