@@ -1,7 +1,6 @@
 {{ define "main" }}
 {{ partial "nav.html" . }}
+{{ partial "breadcrumb.html" . }}
 {{ .Content}}
-{{ if eq .Params.title "Eğitimler" }}
 {{ partial "brands.html" . }}
-{{ end }}
 {{ end }}

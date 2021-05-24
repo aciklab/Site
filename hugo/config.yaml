@@ -30,7 +30,7 @@ permalinks:
 
 params:
   openGraph: true
-  description: HAVELSAN Liman Merkezi Yönetim Sistemi
+  description: HAVELSAN Açıklab Açık Kaynaklı Yazılım Geliştirme
   navbarlogo:
     main:
       image: aciklab_white.png

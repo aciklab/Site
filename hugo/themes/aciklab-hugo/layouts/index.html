@@ -2,6 +2,8 @@
 <main id="main">
     {{ partial "nav.html" . }}
 
+    {{ partial "breadcrumb.html" . }}
+
     {{ if .Site.Params.section_about }}
     {{ partial "about.html" . }}
     {{ end }}

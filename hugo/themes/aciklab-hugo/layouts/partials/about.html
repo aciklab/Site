@@ -2,12 +2,12 @@
 <section id="about">
     <div class="container">
         <div class="row aos-init aos-animate" data-aos="fade-up">
-            <div class="col-lg-6 col-12 px-0 pt-5 pb-5 d-flex justify-content-lg-end justify-content-center align-items-center">
+            <div class="col-lg-6 col-12 px-0 pb-5 d-flex justify-content-center align-items-center">
                 <a class="venobox" data-autoplay="true" data-vbtype="video" href="{{ $about.video_link }}">
                     <img src="{{ (resources.Get (printf "/images/%s" $about.thumbnail)).RelPermalink }}" class="img-fluid" />
                 </a>
             </div>
-            <div class="col-lg-6 col-12 p-5 d-flex flex-column align-items-center align-items-lg-start">
+            <div class="col-lg-6 col-12 px-5 pb-5 d-flex flex-column align-items-center align-items-lg-start">
                 <h1 class="text-left">{{ $about.title }}</h1>
                 <p>{{ safeHTML $about.text }}</p>
             </div>

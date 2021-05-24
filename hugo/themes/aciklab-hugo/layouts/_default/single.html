@@ -1,7 +1,9 @@
 {{ define "main" }}
 {{ partial "nav.html" . }}
+{{ partial "breadcrumb.html" . }}
+
 <section id="content" class="d-flex">
-    <div class="container{{ if eq .Params.wide_container true}}-fluid{{end}} my-5">
+    <div class="container{{ if eq .Params.wide_container true}}-fluid{{end}} mt-2 mb-5">
         <div class="row" data-aos="fade-up">
             {{ if ne .Params.title_hidden true }}
             <h1 class="mb-3">{{ .Title }}</h1>
@@ -21,4 +23,5 @@
         </div>
     </div>
 </section>
+{{ partial "brands.html" . }}
 {{ end }}
