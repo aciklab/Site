@@ -1,11 +1,7 @@
 ---
 page_title: Neden Liman MYS?
 title: Neden Liman Merkezi Yönetim Sistemi?
-menu:
-  main:
-    name: "Neden Liman?"
-    parent: "about"
-    weight: 1
+
 ---
 
 Havelsan A.Ş. olarak 2016 yılında, Tübitak-Ulakbim ile Pardus işletim sistemi özelinde İş Birliği Protokolü imzalanmıştır. Protokolün amacı, Havelsan A.Ş. olarak kurumlarımızda Linux tabanlı işletim sistemimiz olan Pardus’un yaygınlaşmasını ve kamu BT hizmetlerinde açık kaynaklı alternatif çözümleri üretmektir.

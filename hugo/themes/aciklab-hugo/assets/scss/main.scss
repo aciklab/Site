@@ -161,6 +161,12 @@ section#nav {
 
 }
 
+.nav-item {
+    &:last-of-type {
+        padding-right: 4px;
+    }
+}
+
 .banner {
     background: #54c597;
     color: #ffffff;
@@ -345,4 +351,56 @@ section#comparison {
 }
 .dropdown-menu{
     margin-top: 0;
+}
+
+.egitim-box {
+    background-color: #7a49c6; 
+    color: #fff;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #6234a8;
+        color: #fff;
+    }
+}
+
+.egitim-box-uzman {
+    background-color: #c64990; 
+    color: #fff;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #a83476;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .fa-6x {
+        font-size: 4em !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .navbar-brand {
+        margin-left: 16px;
+    }
+
+    #chart {
+        padding: 0 15px !important;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 989px) {
+    .nav-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 989px) {
+    .footer-row {
+        margin-left: -30px;
+        margin-right: -45px;
+    }
 }

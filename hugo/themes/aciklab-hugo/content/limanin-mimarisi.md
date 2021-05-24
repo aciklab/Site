@@ -2,12 +2,7 @@
 page_title: Liman'ın Mimarisi
 title: Liman'ın Mimarisi
 layout: skeleton
-menu:
-  nav:
-    name: "Liman'ın Mimarisi"
-    weight: 2
-    pre: "fa-sitemap"
-    post: "Liman MYS kabiliyetleri politika ve eklenti başlıklarıyla değerlendirilir."
+
 ---
 
 <section id="content" class="d-flex">

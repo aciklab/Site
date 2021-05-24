@@ -16,20 +16,6 @@ menu:
     name: "Ana Sayfa"
     url: "/"
     weight: 1
-  - identifier: about
-    name: "Keşfedin"
-    url: ""
-    weight: 2
-  - identifier: policies
-    name: "Politikalar"
-    parent: "about"
-    url: "/#policies"
-    weight: 3
-  - identifier: comparison
-    name: "Karşılaştırma"
-    parent: "about"
-    url: "/#comparison"
-    weight: 2
   footer:
   - identifier: diger
     name: "/images/aciklab_white.png"
@@ -37,6 +23,7 @@ menu:
     parent: diger
     name: "Ana Sayfa"
     url: "/"
+    weight: 1
 
 permalinks:
   posts: /haberler/:title/
@@ -60,7 +47,7 @@ params:
         - image: "aciklab.png"
       buttons:
         - text: Şimdi Bilgi Alın
-          link: "neden-liman-mys"
+          link: "egitimler"
       image: slide
     - title: Hizmetler
       subtitle: Pardus ve açık kaynaklı yazılımlar üzerine olan hizmetlerimizi inceleyin.
@@ -68,7 +55,7 @@ params:
         - image: "aciklab.png"
       buttons:
         - text: Hizmetlerimiz
-          link: https://github.com/limanmys
+          link: "hizmetler"
       image: liman-gorsel
   section_about: 
     video_link: "https://www.youtu.be/yZyScWN2IbQ"

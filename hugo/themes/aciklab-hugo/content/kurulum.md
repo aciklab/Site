@@ -1,11 +1,6 @@
 ---
 page_title: Kurulum
 title: Liman MYS Kurulumu
-menu:
-    main:
-        parent: "about"
-        weight: 4
-        name: "Kurulum"
 ---
 
 Liman MYS'nin kurulumu sağlayacağımız .deb paketi ile gerçekleşir. Bu paket sizin için kurulum, güncelleme ve sistem için gerekli optimizasyonlari kısa sürede tamamlayacaktir.  

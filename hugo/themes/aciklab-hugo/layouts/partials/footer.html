@@ -1,10 +1,10 @@
 <footer id="footer">
     <div class="container">
-        <div class="row py-5">
-            <div class="col-12 col-lg-6 d-flex">
+        <div class="footer-row row py-5">
+            <div class="col-12 col-lg-6 d-lg-flex d-block">
                 <div class="row">
                     {{ range .Site.Menus.footer }}
-                    <div class="col-12 col-lg-6 text-center text-lg-left">
+                    <div class="col-12 col-xl-6 text-center text-lg-left">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item px-0">
                                 <img src="{{ .Name }}" alt="AçıkLab" class="img-fluid"
@@ -17,7 +17,7 @@
                         </ul>
                     </div>
                     {{ end }}
-                    <div class="col-12">
+                    <div class="col-12 text-lg-left text-center mt-lg-0 mt-3">
                         {{ range $i, $v := .Site.Params.footer.socialmedia }}
                         <a href="{{ .link }}" target="_blank" {{if gt $i 0}}class="ml-3" {{end}}>
                             <i class="{{ .icon }} fa-lg"></i>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 mt-3 mt-lg-0">
-                <div class="row flex-column text-center text-lg-right">
+                <div class="flex-column text-center text-lg-right">
                     
                     <div class="col-12 mt-2">
                         <div class="embed-responsive embed-responsive-16by9">

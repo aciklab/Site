@@ -2,15 +2,6 @@
 page_title: Politikalar ve Eklentiler
 title: Liman MYS'de Politikalar
 layout: skeleton
-menu:
-    main:
-        name: "Özellikler"
-        weight: 3
-    nav:
-        name: "Politikalar ve Eklentiler"
-        weight: 1
-        pre: "fa-cogs"
-        post: "Liman MYS kabiliyetleri politika ve eklenti başlıklarıyla değerlendirilir."
 
 ---
 

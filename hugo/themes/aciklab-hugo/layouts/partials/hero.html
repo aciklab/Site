@@ -1,7 +1,7 @@
 {{ $hero := .Site.Params.hero }}
 <section id="hero" class="pt-lg-5 pt-0 pb-5">
     <div id="hero-carousel" class="carousel container slide pb-5" data-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner row">
             {{ range $i,$v := $hero }}
             <div class="carousel-item{{ if eq $i 0}} active{{ end }}">
                 <div class="row">
@@ -27,7 +27,7 @@
                         {{ end }}
                     </div>
                     {{ if $v.image }}
-                    <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="col-lg-6 order-1 order-lg-2 hero-img p-0" data-aos="zoom-in" data-aos-delay="200">
                         <picture>
                             <source srcset="{{ printf "/images/%s.webp"  $v.image | relURL }}" type="image/webp">
                             <img src="{{ printf "/images/%s.png"  $v.image | relURL }}" class="img-fluid" alt="">
