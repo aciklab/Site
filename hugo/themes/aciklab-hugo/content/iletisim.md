@@ -3,9 +3,10 @@ title: "İletişim"
 title_hidden: true
 menu:
   main:
-
     weight: 6
-
+  footer:
+    parent: diger
+    name: "İletişim"
 ---
 
 <div class="row">

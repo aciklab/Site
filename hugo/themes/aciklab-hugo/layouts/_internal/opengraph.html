@@ -70,4 +70,7 @@ See: https://github.com/gohugoio/hugo/issues/5078
 {{- /* Facebook Page Admin ID for Domain Insights */}}
 {{- with .Site.Social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
 
+{{- if .Params.image -}}
+<meta property="og:image" content="/images/haberler/{{ .Params.image }}"/>
+{{- end -}}
 

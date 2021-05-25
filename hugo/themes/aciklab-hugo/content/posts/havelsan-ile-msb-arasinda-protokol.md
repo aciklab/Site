@@ -5,7 +5,7 @@ title: HAVELSAN ile MSB Arasında PARDUS İş Birliği Protokolü İmzalandı
 image: havelsan-ile-msb-arasinda-pardus-is-birligi-protokolu-imzalandi.jpg
 ---
 
-<img src="/images/haberler/liman-mys-dns-1.png" class="img-fluid" />
+<img src="/images/haberler/havelsan-ile-msb-arasinda-pardus-is-birligi-protokolu-imzalandi.jpg" class="img-fluid mb-4">
 
 Milli Savunma Bakanlığı (MSB) ile HAVELSAN arasında, PARDUS Göç, Bakım ve İdame Hizmeti Projesi kapsamında iş birliği protokolü, Milli Savunma Bakanı Yardımcısı Sayın Alpaslan KAVAKLIOĞLU’nun da katıldığı törenle imzalandı.
 

@@ -28,6 +28,8 @@ menu:
 permalinks:
   posts: /haberler/:title/
 
+paginate: 6
+
 params:
   openGraph: true
   description: HAVELSAN Açıklab Açık Kaynaklı Yazılım Geliştirme

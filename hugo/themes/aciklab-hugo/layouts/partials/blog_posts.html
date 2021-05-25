@@ -1,8 +1,17 @@
 <div class="container mt-5">
-    <div class="row">
+    <div class="row {{if eq .Params.title "Haberler"}}egitim-row mt-n4{{end}}">
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
         {{ range $paginator.Pages }}
             {{ .Render "truncated_post" }}
+        {{ end }}
+        {{ if .IsHome }}
+        <div class="col-12 text-center" onclick="window.location.href=/haberler/">
+            <button class="btn btn-lg btn-primary btn-color-low">
+                Tüm Haberleri Görüntüleyin
+            </button>
+        </div>
+        {{ else }}
+        {{ partial "pagination.html" . }}
         {{ end }}
     </div>
 </div>
