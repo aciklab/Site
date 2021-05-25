@@ -6,7 +6,7 @@
     <div class="container{{ if eq .Params.wide_container true}}-fluid{{end}} mt-2 mb-5">
         <div class="row" data-aos="fade-up">
             {{ if ne .Params.title_hidden true }}
-            <h1 class="mb-3">{{ .Title }}</h1>
+            <h1 class="mb-3 w-100">{{ .Title }}</h1>
             {{ end }}
             
             {{ if ne .Params.date nil }}

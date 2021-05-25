@@ -3,6 +3,9 @@
   integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
   crossorigin="anonymous"
 ></script>
+{{ if eq .Params.title "Açık Kaynak Ürün Ailesi" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+{{ end }}
 <script
   src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
   integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
@@ -26,6 +29,7 @@
         once: true,
       });
     });
+    
     function normalizeSlideHeights() {
       $(".carousel").each(function () {
         const items = $(".carousel-item", this);
@@ -42,18 +46,24 @@
       });
     }
     $(window).on("load resize orientationchange", normalizeSlideHeights);
+    
     $(".dropdown").hover(function(){
       var dropdownMenu = $(this).children(".dropdown-menu");
       if(dropdownMenu.is(":visible")){
           dropdownMenu.parent().toggleClass("show");
       }
     });
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })
 
-    
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
   });   
+</script>
+{{ if eq .Params.title "Uyumluluk" }}
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
+<script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+<script>
   $(document).ready( function () {
     $('#table1').DataTable({
       language: {
@@ -77,8 +87,4 @@
     });
   } ); 
 </script>
-{{ if eq .Params.title "Uyumluluk" }}
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
-<script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
 {{ end }}

@@ -483,3 +483,29 @@ thead {
         color: #222;
     }
 }
+
+.urunler-card .card-header{
+    border-radius: 0 !important;
+    background-color: #7a49c6;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    font-weight: 600;
+}
+
+.urunler-card {
+    border-radius: 0 !important;
+    border: 0;
+    background: rgba(0, 0, 0, 0.05);
+    border-bottom: 5px rgba(0, 0, 0, 0.35) solid;
+}
+
+
+.urunler-picture img {
+    filter: grayscale(100%);
+    transition: 0.3s all;
+
+    &:hover {
+        filter: none;
+    }
+}
