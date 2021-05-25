@@ -26,7 +26,7 @@ layout: skeleton
     </div>
 </section>
 
-<section id="content" class="d-flex aos-init aos-animate" data-aos="fade-up">
+<section class="d-flex aos-init aos-animate" data-aos="fade-up">
     <div class="mt-lg-5 mb-md-0 mt-5 mb-5 mx-auto">
         <div class="container">
             <div id="temel-egitimler" class="row egitim-row">

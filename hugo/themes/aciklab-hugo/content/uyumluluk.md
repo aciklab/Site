@@ -9,6 +9,9 @@ menu:
 layout: skeleton
 ---
 
+<section id="content">
+
+
 <div class="container">
     <div class="row">
         <ul class="nav nav-pills mb-4 w-100" id="tab" role="tablist">
@@ -437,8 +440,9 @@ layout: skeleton
         </div>
     </div>
 </div>
-<div class="container mt-4">
+<div class="container mt-4 mb-md-0 mb-5">
     <div class="row" style="font-size: 18px; color: #f44">
         "Yapılan testler Havelsan AçıkLab'ta belirli yazılım ve donanıma bağımlı şekilde yapılmıştır. İlgili ürünler kendi kurumunuzda tekrar analiz edilmelidir."
     </div>
 </div>
+</section>

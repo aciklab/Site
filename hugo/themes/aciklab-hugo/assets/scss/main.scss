@@ -399,6 +399,38 @@ section#comparison {
             display: none;
         }
     }
+
+    .carousel-inner {
+        margin-right: 0!important;
+        margin-left: 0 !important;
+    }
+
+    .breadcrumb {
+        padding-left: 12px!important;
+        padding-right: 12px!important;
+    }
+
+    .big-nav-item {
+        padding-top: 15px !important;
+        padding-bottom: 8px !important
+    }
+    
+    section#content {
+        padding-left: 12px!important;
+        padding-right: 12px!important;
+    }
+
+    .pagination {
+        padding-left: 12px!important;
+        padding-right: 12px!important;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
 }
 
 @media only screen and (min-width: 575px) and (max-width: 989px) {
