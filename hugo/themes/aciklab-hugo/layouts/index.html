@@ -4,7 +4,7 @@
 
     {{ partial "breadcrumb.html" . }}
 
-    {{ if .Site.Params.section_about }}
+    {{ if and .Site.Params.section_about 0 }}
     {{ partial "about.html" . }}
     {{ end }}
 

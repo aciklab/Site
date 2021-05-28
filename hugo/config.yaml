@@ -26,7 +26,7 @@ menu:
     weight: 1
 
 permalinks:
-  posts: /haberler/:title/
+  posts: /duyurular/:title/
 
 paginate: 6
 
@@ -40,7 +40,7 @@ params:
       image: sub.svg
   banner:
     text: Açık kaynak ürünleri ile ilgili bilgi için iletişime geçin!
-    button_text: Deneme Sürümü
+    button_text: İletişime geçin
     button_link: "/iletisim"
   hero:
     - title: Eğitimler
