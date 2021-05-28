@@ -11,20 +11,13 @@ menu:
 
 <div class="row">
 <div class="col-12 col-lg-6">
-    <h2>Deneyim için Formu Doldurun</h2>
+    <h2>Açık Kaynak Çözümlerimizi AçıkLab aracılığı ile sunuyoruz.</h2>
     <p>
-        Ücretsiz Demo İsteyin! BT süreçlerinizi aksaklığa sebep olmadan
-        kavram ispat çalışması sunuyoruz. Pardus Göç Projelerinizi ilk
-        adımını risk almadan Liman MYS ile başlatabilirsiniz. Kavram
-        ispat çalışması sonrası 15 gün ücretsiz deneme sürümünü sizlerde
-        test edebilirsiniz.
+        HAVELSAN A.Ş. olarak Açık Kaynak alternatif çözümlerini kurumlarımıza profesyonel hizmet olarak sunuyoruz.
+AçıkLab Açık Kaynak çözümleri kurumların ihtiyaçlarına özel geliştirmeler ile kararlı olarak çalışmasını sağlar. Bütün çözümlerini güvenlik sıkılaştırmalarını tamamlayarak müşterisinin hizmetine sunar.
     </p>
     <p>
-        Liman MYS ile kullanımda olan dizinlerin (Samba, Aktif Dizin)
-        entegrasyonu hizmetler kesintiye uğramadan sağlanmaktadır. Liman
-        MYS'nin bileşenleri: Liman, Kaptan, Tayfa olarak üçe
-        ayrılmıştır. Bu bileşenler, Liman MYS'nin kararlı ve güvenli
-        olarak çalışmasını sağlar.
+        Sizler de alternatif açık kaynak çözümlerimiz; işletim sistemi göç projeleri, açık kaynak yönetim hizmetleri (Liman MYS), açık kaynak veritabanı hizmetlerimiz ve ücretsiz hizmetlerimizden faydalanmak için iletişim formunu doldurunuz.
     </p>
 </div>
 <div class="col-12 col-lg-6">

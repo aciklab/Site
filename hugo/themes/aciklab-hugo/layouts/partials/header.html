@@ -1,7 +1,7 @@
 {{ $params := .Site.Params }}
 {{ $navbar := $params.navbar }}
 <header id="header">
-    <div class="container">
+    <div class="container" data-aos="fade-down">
         <nav class="row navbar navbar-expand-lg py-3 px-0">
             <a href="{{ $params.navbarlogo.link | relURL }}" class="d-flex flex-lg-row flex-column navbar-brand">
                 {{ range $i, $v := $params.navbarlogo }}

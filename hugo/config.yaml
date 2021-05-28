@@ -16,6 +16,10 @@ menu:
     name: "Ana Sayfa"
     url: "/"
     weight: 1
+  - identifier: news
+    name: "Duyurular"
+    url: "/duyurular/"
+    weight: 2
   footer:
   - identifier: diger
     name: "/images/aciklab_white.png"
@@ -28,14 +32,14 @@ menu:
 permalinks:
   posts: /duyurular/:title/
 
-paginate: 6
+paginate: 4
 
 params:
   openGraph: true
   description: HAVELSAN Açıklab Açık Kaynaklı Yazılım Geliştirme
   navbarlogo:
     main:
-      image: aciklab_white.png
+      image: aciklab_pardus2.png
     sub:
       image: sub.svg
   banner:
@@ -50,7 +54,7 @@ params:
       buttons:
         - text: Şimdi Bilgi Alın
           link: "egitimler"
-      image: slide
+      image: gnu_linux
     - title: Hizmetler
       subtitle: Pardus ve açık kaynaklı yazılımlar üzerine olan hizmetlerimizi inceleyin.
       logos:

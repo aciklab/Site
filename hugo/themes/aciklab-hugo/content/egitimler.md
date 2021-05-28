@@ -18,10 +18,10 @@ menu:
 layout: skeleton
 ---
 
-<section id="chart" class="d-flex" style="background-color: rgb(242, 242, 242); border-top: 4px #fff solid;">
+<section id="chart" class="d-flex aos-init aos-animate" data-aos="fade-up" style="background-color: rgb(242, 242, 242); border-top: 4px #fff solid;">
     <div class="container py-3">
-        <div class="row aos-init aos-animate" data-aos="fade-up">
-            <img src="/images/egitim-cizelgesi.png" alt="Eğitim Çizelgesi" class="img-fluid">
+        <div class="row">
+            <img src="/images/egitim-cizelgesi.png" data-aos="fade-up" alt="Eğitim Çizelgesi" class="img-fluid">
         </div>
     </div>
 </section>
@@ -29,7 +29,7 @@ layout: skeleton
 <section class="d-flex aos-init aos-animate" data-aos="fade-up">
     <div class="mt-lg-5 mb-md-0 mt-5 mb-5 mx-auto">
         <div class="container">
-            <div id="temel-egitimler" class="row egitim-row">
+            <div id="temel-egitimler" class="row egitim-row" data-aos="fade-up">
                 <div class="col-12">
                     <h2 class="mb-3 float-left">Temel Eğitimler</h2>
                     <button type="button" class="btn btn-primary btn-lg btn-color-low float-right mb-3" data-toggle="modal" data-target="#modalCenter">
@@ -217,7 +217,7 @@ layout: skeleton
                     </div>
                 </div>
             </div>
-            <div id="uzman-egitimler" class="row egitim-row">
+            <div id="uzman-egitimler" class="row egitim-row" data-aos="fade-up">
                 <div class="col-12 mt-5">
                     <h2 class="mb-3 float-left">Uzman Eğitimler</h2>
                     <!-- Button trigger modal -->

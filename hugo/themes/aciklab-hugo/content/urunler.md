@@ -15,6 +15,16 @@ menu:
 Genel Kamu Lisansı'na sahip Özgür ve Açık Kaynak Kodlu yazılımlar ile herhangi bir firmaya veya ülkeye bağımlı olmadan mevcut sistemlerinizi yönetebilirsiniz.
 
 <div class="card w-100 urunler-card my-3">
+    <div class="row">
+        <div class="col-md-12">
+            <a href="https://liman.havelsan.com.tr/" target="_blank">
+                <img src="/images/urunler/liman-banner.jpg" alt="Liman Merkezi Yönetim Sistemi" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Liman MYS">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="card w-100 urunler-card my-3">
     <h5 class="card-header">İşletim Sistemi</h5>
     <div class="card-body row">
         <div class="col-md-3 urunler-picture mb-3">

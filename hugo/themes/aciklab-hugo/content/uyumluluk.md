@@ -10,10 +10,19 @@ layout: skeleton
 ---
 
 <section id="content">
-
-
+   <div class="container">
+      <div class="row egitim-row">
+         <div class="col-12 mt-2 mb-4">
+            <h2 class="mb-4 float-left">Uyumluluk</h2>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg btn-color-low float-right mb-3" data-toggle="modal" data-target="#modalCenter">
+               Uyumluluk Test Talebi
+            </button>
+      </div>
+      </div>
+   </div>
 <div class="container">
-    <div class="row">
+    <div class="row" data-aos="fade-up">
         <ul class="nav nav-pills mb-4 w-100" id="tab" role="tablist">
             <li class="p-0 col-6 pr-2">
                 <a class="tab-button active float-left w-100 text-center" id="yazilimlar-tab" data-toggle="pill" href="#yazilimlar" role="tab" aria-controls="yazilimlar" aria-selected="true">Yazılımlar</a>
@@ -446,3 +455,18 @@ layout: skeleton
     </div>
 </div>
 </section>
+<div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="modalLongTitle">Uyumluluk Test Talebi</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         Buraya form frame eklenecek
+       </div>
+     </div>
+   </div>
+</div>

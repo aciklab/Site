@@ -4,12 +4,12 @@
 
     {{ partial "breadcrumb.html" . }}
 
-    {{ if and .Site.Params.section_about 0 }}
+    {{ if and .Site.Params.section_about 1 }}
     {{ partial "about.html" . }}
     {{ end }}
 
     {{ partial "banner.html" . }}
-    {{ partial "blog_posts.html" . }}
+    {{ partial "home_posts.html" . }}
     {{ partial "brands.html" . }}
 </main>
 {{ end }}

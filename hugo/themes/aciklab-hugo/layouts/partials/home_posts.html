@@ -1,0 +1,13 @@
+<div class="container mt-5">
+    <div class="row egitim-row">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}    
+        {{ range $paginator.Pages }}
+            {{ .Render "home_post" }}
+        {{ end }}
+        <div class="col-12 text-center mb-md-0 mb-5" onclick="window.location.href=/duyurular/">
+            <button class="btn btn-lg btn-primary btn-color-low">
+                Tüm Duyuruları Görüntüleyin
+            </button>
+        </div>
+    </div>
+</div>
