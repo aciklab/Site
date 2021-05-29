@@ -216,6 +216,38 @@ layout: skeleton
                         </div>
                     </div>
                 </div>
+                <div class="col-12">
+                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box" data-toggle="collapse" data-target="#teknoloji-kamplari">
+                        <i class="fa fa-university fa-3x mr-2 float-left"></i>
+                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                            <b>Teknoloji Kampları</b>
+                        </span>
+                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    </a>
+                    <div class="collapse float-left w-100" id="teknoloji-kamplari" data-parent="#temel-egitimler">
+                        <div class="card card-body mb-3">
+                            <div class="card-content p-3 rounded" style="background-color: rgba(0,0,0,0.05)">
+                                <p class="mb-1">Türkiye’nin dört bir yanından her yıl ortalama 20 üniversite öğrencisine  bir hafta boyunca PARDUS ve Açık Kaynak Yazılımları başlıklarında Teknoloji Kampları (Yaz ve Kış Kampları) düzenlenmektedir. Kamp süresi boyunca yapılan  Kampların sonunda, açık pozisyonlar için uygun olan ve kamp boyunca gözlemlenen öğrenciler HAVELSAN istihdam sürecine dahil edilmektedirler.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box" data-toggle="collapse" data-target="#farkindalik">
+                        <i class="fa fa-group fa-3x mr-3 float-left"></i>
+                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                            <b>Farkındalık Eğitimleri</b>
+                        </span>
+                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    </a>
+                    <div class="collapse float-left w-100" id="farkindalik" data-parent="#temel-egitimler">
+                        <div class="card card-body mb-3">
+                            <div class="card-content p-3 rounded" style="background-color: rgba(0,0,0,0.05)">
+                                <p class="mb-1">Kamu kurum ve kuruluşlarda bilgi işlem personellerine yönelik Havelsan da geliştirilen ürünler hakkında farkındalık eğitimleri düzenlenmektedir. Bir gün süren bu eğitimde hem teknoloji konusunda hem de yenilikler konusunda kamu kurum ve kuruluşlar bilgilendirilmeye çalışılmaktadır. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="uzman-egitimler" class="row egitim-row" data-aos="fade-up">
                 <div class="col-12 mt-5">
