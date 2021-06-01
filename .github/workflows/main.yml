@@ -56,4 +56,4 @@ jobs:
         git remote show origin
         git add .
         git commit -m "Publish Automatic Build"
-        git push origin master
+        git push origin development
