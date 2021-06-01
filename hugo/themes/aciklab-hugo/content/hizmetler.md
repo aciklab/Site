@@ -326,7 +326,43 @@ layout: skeleton
           </button>
         </div>
         <div class="modal-body">
-          Buraya form frame eklenecek
+            <div class="container" id="ff-compose"></div>
+            <style>
+            #ff-compose small {
+                display: none;
+            }
+            </style>
+            <script type="text/javascript">
+            function ready(callback) {
+                if (document.readyState != 'loading') callback();
+                else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+                else document.attachEvent('onreadystatechange', function(){
+                    if (document.readyState == 'complete') callback();
+                });
+            }
+            function callback() {
+                ready(function() {
+                    convert();
+                    const render = formFacade.render;
+                    formFacade.render = function() {
+                        render.apply(this, arguments);
+                        convert();
+                    }
+                })
+            }
+            function convert() {
+                $("#ff-compose .ff-item").each(function(_, el) {
+                    const text = $(el).find("label").clone()
+                        .children()
+                        .remove()
+                        .end()
+                        .text().trim();
+                    $(el).find("input,textarea").attr("placeholder", text);
+                    $(el).find("input,textarea").after("<hr />");
+                });
+            }
+            </script>
+            <script async defer src="https://formfacade.com/include/112609387266663882077/form/1FAIpQLSfNxTR9C7FF7L0W2eaftRmd4hr0krwSCgD3tzRScg4Nh1ZUyA/bootstrap.js?div=ff-compose&callback=callback"></script>
         </div>
       </div>
     </div>
