@@ -15,7 +15,7 @@
         {{ $original := print "images/duyurular/" (path.Base .Params.image) }}
         {{ $originalImg := resources.Get $original }}
         {{ if $originalImg }}
-            {{ $thumbnailImg := $originalImg.Resize "600x300" }}
+            {{ $thumbnailImg := $originalImg.Fill "600x300 Smart" }}
             {{ printf `<img src="%s" alt="%s" class="img-fluid mb-3">` 
                 $thumbnailImg.RelPermalink .Title | safeHTML }}
         {{ end }}

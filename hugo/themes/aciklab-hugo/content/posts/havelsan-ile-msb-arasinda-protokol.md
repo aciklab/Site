@@ -2,7 +2,7 @@
 date: 2020-10-23
 linktitle: HAVELSAN ile MSB Arasında PARDUS İş Birliği Protokolü İmzalandı
 title: HAVELSAN ile MSB Arasında PARDUS İş Birliği Protokolü İmzalandı
-image: havelsan-ile-msb-arasinda-pardus-is-birligi-protokolu-imzalandi.jpg
+image: hvl-msb.jpg
 ---
 
 <img src="/images/duyurular/havelsan-ile-msb-arasinda-pardus-is-birligi-protokolu-imzalandi.jpg" class="img-fluid mb-4">

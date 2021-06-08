@@ -25,7 +25,9 @@
                         {{ end }}
                     </div>
                     <div class="col-12 mt-3 d-lg-flex justify-content-end align-items-start flex-column d-none">
-                        <img src="{{ printf "/images/%s" .Site.Params.footer.logo | relURL }}" class="img-fluid" style="margin-top: 20px; max-width: 400px; float: left;"/>
+                        <a href="https://www.havelsan.com.tr" target="_blank">
+                            <img src="{{ printf "/images/%s" .Site.Params.footer.logo | relURL }}" class="img-fluid" style="margin-top: 20px; max-width: 400px; float: left;"/>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -47,7 +49,9 @@
                 </div>
             </div>
             <div class="col-12 mt-3 text-center d-lg-none">
-                <img src="{{ printf "/images/%s" .Site.Params.footer.logo | relURL }}" class="img-fluid" />
+                <a href="https://www.havelsan.com.tr" target="_blank">
+                    <img src="{{ printf "/images/%s" .Site.Params.footer.logo | relURL }}" class="img-fluid" />
+                </a>
             </div>
         </div>
 </footer>
