@@ -58,7 +58,7 @@ layout: skeleton
                     </div>
                 </div>
                 <div class="col-12">
-                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box-uzman" data-toggle="collapse" data-target="#poc-liman">
+                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box" data-toggle="collapse" data-target="#poc-liman">
                         <i class="fa fa-ship fa-3x mr-3 float-left"></i>
                         <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
                             <b>Liman Kavram İspatı Kurulumu</b>
@@ -102,7 +102,7 @@ layout: skeleton
                     </div>
                 </div>
                 <div class="col-12">
-                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box-uzman" data-toggle="collapse" data-target="#liman-gelistirme">
+                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box" data-toggle="collapse" data-target="#liman-gelistirme">
                         <i class="fa fa-ship fa-3x mr-3 float-left"></i>
                         <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
                             <b>Liman Ek Geliştirme Hizmeti</b>
@@ -132,7 +132,7 @@ layout: skeleton
                     </button>
                 </div>
                 <div class="col-12">
-                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box" data-toggle="collapse" data-target="#postgresql">
+                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box-uzman" data-toggle="collapse" data-target="#postgresql">
                         <i class="fa fa-database fa-3x mr-3 float-left"></i>
                         <span class="float-left mt-md-2 mt-0" style="font-size: 20px;">
                             <b>PostgreSQL</b>
@@ -156,7 +156,7 @@ layout: skeleton
                     </a>
                 </div>
                 <div class="col-12">
-                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box">
+                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box-uzman">
                         <i class="fa fa-rocket fa-3x mr-3 float-left"></i>
                         <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
                             <b>Ansible</b>
@@ -206,7 +206,7 @@ layout: skeleton
                     </div>
                 </div>
                 <div class="col-12">
-                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box-uzman" data-toggle="collapse" data-target="#analiz">
+                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box" data-toggle="collapse" data-target="#analiz">
                         <i class="fa fa-linux fa-3x ml-1 mr-3 float-left"></i>
                         <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
                             <b>Pardus Analiz Çalışması</b>
@@ -260,7 +260,7 @@ layout: skeleton
                     </div>
                 </div>
                 <div class="col-12">
-                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box-uzman" data-toggle="collapse" data-target="#poc-calismasi">
+                    <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 rounded egitim-box" data-toggle="collapse" data-target="#poc-calismasi">
                         <i class="fa fa-linux fa-3x ml-1 mr-3 float-left"></i>
                         <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
                             <b>Pardus Kavram İspat (PoC) Çalışması</b>

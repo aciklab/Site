@@ -1,105 +1,24 @@
 <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-  integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-  crossorigin="anonymous"
+  src="/scripts/aciklab.bundle.js"
 ></script>
 {{ if eq .Params.title "Açık Kaynak Ürün Ailesi" }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="/scripts/popper.min.js"></script>
 {{ end }}
+<!--
 <script
-  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-  crossorigin="anonymous"
+  src="/scripts/bootstrap.min.js"
 ></script>
 <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-  integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-  crossorigin="anonymous"
+  src="/scripts/aos.js"
 ></script>
 <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.1/venobox.min.js"
-  integrity="sha512-6mm1Gra+9mSztlk6Q45F1soEHmkduyd2ponCIWNo5pr0lgcr8d79GQjQ3Nw0uRR3/+y/OZGklAi38yE1QSNpCw=="
-  crossorigin="anonymous"
+  src="/scripts/venobox.min.js"
+></script>-->
+<script
+  src="/scripts/aciklab.js"
 ></script>
-<script type="text/javascript">
-  jQuery(document).ready(function ($) {
-    $(function () {
-      $(".venobox").venobox();
-      AOS.init({
-        once: true,
-      });
-    });
-    
-    function normalizeSlideHeights() {
-      $(".carousel").each(function () {
-        const items = $(".carousel-item", this);
-        items.css("min-height", 0);
-        const maxHeight = Math.max.apply(
-          null,
-          items
-            .map(function () {
-              return $(this).outerHeight();
-            })
-            .get()
-        );
-        items.css("min-height", maxHeight + "px");
-      });
-    }
-    $(window).on("load resize orientationchange", normalizeSlideHeights);
-    
-    $(".dropdown").hover(function(){
-      var dropdownMenu = $(this).children(".dropdown-menu");
-      if(dropdownMenu.is(":visible")){
-          dropdownMenu.parent().toggleClass("show");
-      }
-    });
-
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
-
-    // Smooth Capalar
-    try {
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-  
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-          });
-        });
-      });
-    } catch (err) {
-      //
-    }
-  });   
-</script>
 {{ if eq .Params.title "Uyumluluk" }}
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
-<script src="//cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
-<script>
-  $(document).ready( function () {
-    $('#table1').DataTable({
-      language: {
-        url: '//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json'
-      }
-    });
-    $('#table2').DataTable({
-      language: {
-        url: '//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json'
-      }
-    });
-    $('#table3').DataTable({
-      language: {
-        url: '//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json'
-      }
-    });
-    $('#table4').DataTable({
-      language: {
-        url: '//cdn.datatables.net/plug-ins/1.10.24/i18n/Turkish.json'
-      }
-    });
-  } ); 
-</script>
+<link rel="stylesheet" href="/scripts/dataTables.bootstrap4.min.css">
+<script src="/scripts/jquery.dataTables.min.js"></script>
+<script src="/scripts/dataTables.bootstrap4.min.js"></script>
 {{ end }}
