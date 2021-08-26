@@ -18,7 +18,7 @@ Genel Kamu Lisansı'na sahip Özgür ve Açık Kaynak Kodlu yazılımlar ile her
     <div class="row">
         <div class="col-md-12">
             <a href="https://liman.havelsan.com.tr/" target="_blank">
-                <img src="/images/urunler/liman-banner.jpg" alt="Liman Merkezi Yönetim Sistemi" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Liman MYS">
+                <img src="/images/liman-new-afis.png" alt="Liman Merkezi Yönetim Sistemi" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Liman MYS">
             </a>
         </div>
     </div>
