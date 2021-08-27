@@ -64,7 +64,7 @@ params:
           link: "https://liman.havelsan.com.tr/neden-liman-mys/"
         - text: Demo Talebi
           link: "https://liman.havelsan.com.tr/iletisim/"
-      image: slide  
+      image: liman-screen  
     - title: Eğitimler
       subtitle: Açık kaynak kodlu sistemler hakkında bilgi birikiminizi arttırın ve hakim olun.
       logos:
