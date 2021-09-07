@@ -5,16 +5,6 @@ title: Liman MYS 1.8 Çekirdek Sürümü Yayınlandı
 image: ana_ekran.png
 ---
 
-<style>
-h1,h2,h3 {
-    width: 100%;
-}
-h1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-</style>
-
 <img class="img-fluid" src="/images/duyurular/ana_ekran.png" alt="Liman MYS 1.8 Sürümü">
 
 # Yeni kullanıcı deneyimi
@@ -106,3 +96,12 @@ Yeni eklenti mağazamız sayesinde tek tıklama ile Liman MYS'ye eklenti kurulum
 - Sol menü eklenti sayısı özelliği kaldırıldı.
 - Sol menü sunucu sayısı özelliği ince ayarlar sekmesine eklendi.
 
+<style>
+h1,h2,h3 {
+    width: 100%;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+</style>
