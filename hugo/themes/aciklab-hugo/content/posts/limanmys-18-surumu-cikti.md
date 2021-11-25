@@ -2,10 +2,10 @@
 date: 2021-07-12
 linktitle: Liman MYS 1.8 Çekirdek Sürümü Yayınlandı
 title: Liman MYS 1.8 Çekirdek Sürümü Yayınlandı
-image: ana_ekran.png
+image: liman3.png
 ---
 
-<img class="img-fluid" src="/images/duyurular/ana_ekran.png" alt="Liman MYS 1.8 Sürümü">
+<img class="img-fluid" src="/images/duyurular/liman.jpg" alt="Liman MYS 1.8 Sürümü">
 
 # Yeni kullanıcı deneyimi
 

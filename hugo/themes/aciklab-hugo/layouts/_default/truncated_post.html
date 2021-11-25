@@ -18,6 +18,10 @@
             {{ $thumbnailImg := $originalImg.Fill "600x300 Smart" }}
             {{ printf `<img src="%s" alt="%s" class="img-fluid mb-3">` 
                 $thumbnailImg.RelPermalink .Title | safeHTML }}
+        {{ else }}
+          {{ $path := printf "%s%s" "images/duyurular/" (path.Base .Params.image)}}
+          {{ printf `<img src="/%s" alt="%s" class="img-fluid mb-3">` 
+           $path .Title | safeHTML }}
         {{ end }}
       {{ else }}
         <img src="/images/no-image.png" alt="{{ .Title }}" class="img-fluid mb-3">
