@@ -15,8 +15,7 @@
     <link rel="icon" href="/fav.png" type="image/png">
     <link rel="stylesheet" href="/fonts/inter.css">
     {{ $style := resources.Get "scss/main.scss" | resources.ToCSS | minify -}}
-    <style>
-      {{ $style.Content | safeCSS }}
-    </style>
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    
   </head>
 </html>

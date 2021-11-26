@@ -65,22 +65,7 @@ params:
         - text: Demo Talebi
           link: "https://liman.havelsan.com.tr/iletisim/"
       image: liman-screen  
-    - title: Eğitimler
-      subtitle: Açık kaynak kodlu sistemler hakkında bilgi birikiminizi arttırın ve hakim olun.
-      logos:
-        - image: "aciklab.png"
-      buttons:
-        - text: Şimdi Bilgi Alın
-          link: "egitimler"
-      image: egitim_slide
-    - title: Hizmetler
-      subtitle: Pardus ve açık kaynaklı yazılımlar üzerine olan hizmetlerimizi inceleyin.
-      logos:
-        - image: "aciklab.png"
-      buttons:
-        - text: Hizmetlerimiz
-          link: "hizmetler"
-      image: liman-gorsel
+    
   section_about: 
     video_link: "https://www.youtu.be/yZyScWN2IbQ"
     thumbnail: video-holder.png
