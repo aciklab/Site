@@ -1,5 +1,5 @@
 ---
-date: 2021-07-12
+date: 2021-11-27
 linktitle: Açık Kaynak Teknoloji Kampı
 title: Açık Kaynak Teknoloji Kampı Başvuruları Başladı!
 image: acikkaynakkampi.png
