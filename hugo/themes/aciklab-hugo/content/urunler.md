@@ -15,169 +15,198 @@ menu:
 Genel Kamu Lisansı'na sahip Özgür ve Açık Kaynak Kodlu yazılımlar ile herhangi bir firmaya veya ülkeye bağımlı olmadan mevcut sistemlerinizi yönetebilirsiniz.
 
 <div class="card w-100 urunler-card my-3">
-    <div class="row">
-        <div class="col-md-12">
-            <a href="https://liman.havelsan.com.tr/" target="_blank">
-                <img src="/images/liman-new-afis.png" alt="Liman Merkezi Yönetim Sistemi" class="img-fluid" data-toggle="tooltip" data-placement="top" title="Liman MYS">
-            </a>
+    <h5 class="card-header">Desteklenen Ürünler</h5>
+    <div class="card-body row">
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/postgresql.jpg" alt="PostgreSQL" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/ceph.jpg" alt="Ceph" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Ceph">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/openstack.jpg" alt="OpenStack" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="OpenStack">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/hyperledger.jpg" alt="Hyperledger Fabric" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Hyperledger Fabric">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/sonarqube.jpg" alt="SonarQube" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="SonarQube">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/ovirt.jpg" alt="oVirt" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="oVirt">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/docker.jpg" alt="Docker" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Docker">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/kubernetes.jpg" alt="Kubernetes" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Kubernetes">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/spark.jpg" alt="Apache Spark" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Apache Spark">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/hadoop.jpg" alt="Apache Hadoop" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Apache Hadoop">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/cassandra.jpg" alt="Apache Cassandra" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Apache Cassandra">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/kafka.jpg" alt="Apache Kafka" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Apache Kafka">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/prometheus.jpg" alt="Prometheus" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Prometheus">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/elastic.jpg" alt="Elastic" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Elastic">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/tensorflow.jpg" alt="Tensorflow" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Tensorflow">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/numpy.jpg" alt="NumPy" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="NumPy">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/keras.jpg" alt="Keras" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Keras">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/matplotlib.jpg" alt="Matplotlib" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Matplotlib">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/mongodb.jpg" alt="MongoDB" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="MongoDB">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/jenkins.jpg" alt="Jenkins" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Jenkins">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/hazelcast.jpg" alt="Hazelcast" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Hazelcast">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/istio.jpg" alt="Istio" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Istio">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/rabbitmq.jpg" alt="RabbitMQ" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="RabbitMQ">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/haproxy.jpg" alt="HAproxy" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="HAproxy">
         </div>
     </div>
 </div>
 
 <div class="card w-100 urunler-card my-3">
-    <h5 class="card-header">İşletim Sistemi</h5>
-    <div class="card-body row">
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.pardus.org.tr/" target="_blank">
-                <img src="/images/urunler/pardus.jpg" alt="Pardus" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Pardus">
-            </a>
+<a class="d-block w-100" data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapse">
+        <h5 class="card-header">Desteklenen Versiyon Listesi
+        <i class="fa fa-chevron-down float-right"></i>
+        </h5>
+</a>
+        <div class="collapse w-100" id="collapse">
+            <div class="card-body">
+            <table id="table3" class="display dataTable table table-striped table-bordered" style="width: 100%;" role="grid" aria-describedby="example2_info">
+                <thead>
+                    <tr role="row">
+                        <th class="sorting_asc" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-sort="ascending" aria-label="İSİM: activate to sort column descending" style="width: 0px;">ÜRÜN</th>
+                        <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" aria-label="TÜRÜ: activate to sort column ascending" style="width: 0px;">DESTEKLENEN SÜRÜMLER</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>PostgreSQL</td>
+                        <td>12.6, 13.2</td>
+                    </tr>
+                    <tr>
+                        <td>CephFS</td>
+                        <td>14.2.11, 15.2.8</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack</td>
+                        <td>CINDER 7.2.0, HORIZON 18.6.1, KEYSTONE 18.0, NEUTRON 7.2.1, NOVA 17.2.1</td>
+                    </tr>
+                    <tr>
+                        <td>Hyperledger Fabric</td>
+                        <td>2.2.3</td>
+                    </tr>
+                    <tr>
+                        <td>SonarQube</td>
+                        <td>8.9.1</td>
+                    </tr>
+                    <tr>
+                        <td>oVirt</td>
+                        <td>4.2</td>
+                    </tr>
+                    <tr>
+                        <td>Docker</td>
+                        <td>20.10.6</td>
+                    </tr>
+                    <tr>
+                        <td>Kubernetes</td>
+                        <td>1.21.1</td>
+                    </tr>
+                    <tr>
+                        <td>Apache Spark</td>
+                        <td>3.0.0</td>
+                    </tr>
+                    <tr>
+                        <td>Apache Hadoop</td>
+                        <td>3.1.1</td>
+                    </tr>
+                    <tr>
+                        <td>Apache Cassandra</td>
+                        <td>3.11.10</td>
+                    </tr>
+                    <tr>
+                        <td>Apache Kafka</td>
+                        <td>2.8.0</td>
+                    </tr>
+                    <tr>
+                        <td>Prometheus</td>
+                        <td>2.27.1</td>
+                    </tr>
+                    <tr>
+                        <td>Elasticsearch</td>
+                        <td>7.12</td>
+                    </tr>
+                    <tr>
+                        <td>Tensorflow</td>
+                        <td>2.4.1</td>
+                    </tr>
+                    <tr>
+                        <td>NumPy</td>
+                        <td>1.20.1</td>
+                    </tr>
+                    <tr>
+                        <td>Keras</td>
+                        <td>1.1.2</td>
+                    </tr>
+                    <tr>
+                        <td>Matplotlib</td>
+                        <td>3.4.2</td>
+                    </tr>
+                    <tr>
+                        <td>MongoDB</td>
+                        <td>4.4</td>
+                    </tr>
+                    <tr>
+                        <td>Jenkins</td>
+                        <td>2.26</td>
+                    </tr>
+                    <tr>
+                        <td>Hazelcast</td>
+                        <td>3.1</td>
+                    </tr>
+                    <tr>
+                        <td>Istio</td>
+                        <td>1.1</td>
+                    </tr>
+                    <tr>
+                        <td>RabbitMQ</td>
+                        <td>3.8</td>
+                    </tr>
+                    <tr>
+                        <td>HAproxy</td>
+                        <td>2.3</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
         </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://ubuntu.com/" target="_blank">
-                <img src="/images/urunler/ubuntu.jpg" alt="Ubuntu" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Ubuntu">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.centos.org/" target="_blank">
-                <img src="/images/urunler/centos.jpg" alt="CentOS" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="CentOS">
-            </a>
-        </div>
-    </div>
 </div>
 
-<div class="card w-100 urunler-card my-3">
-    <h5 class="card-header">Ofis Programları</h5>
-    <div class="card-body row">
-        <div class="col-md-3 urunler-picture">
-            <a href="https://tr.libreoffice.org/" target="_blank">
-                <img src="/images/urunler/libreoffice.jpg" alt="LibreOffice" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="LibreOffice">
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="card w-100 urunler-card my-3">
-    <h5 class="card-header">Sistem Yönetim Sunucuları</h5>
-    <div class="card-body row">
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="http://www.liderahenk.org/" target="_blank">
-                <img src="/images/urunler/liderahenk.jpg" alt="LiderAhenk" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="LiderAhenk">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.ansible.com/" target="_blank">
-                <img src="/images/urunler/ansible.jpg" alt="Ansible" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Ansible">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.saltstack.com/" target="_blank">
-                <img src="/images/urunler/saltstack.jpg" alt="SaltStack" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="SaltStack">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.zabbix.com/" target="_blank">
-                <img src="/images/urunler/zabbix.jpg" alt="Zabbix" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Zabbix">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.nagios.org/" target="_blank">
-                <img src="/images/urunler/nagios.jpg" alt="Nagios" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Nagios">
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="card w-100 urunler-card my-3">
-    <h5 class="card-header">Dizin Sunucuları</h5>
-    <div class="card-body row">
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.openldap.org/" target="_blank">
-                <img src="/images/urunler/openldap.jpg" alt="OpenLDAP" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="OpenLDAP">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://wiki.samba.org/index.php/Joining_a_Samba_DC_to_an_Existing_Active_Directory" target="_blank">
-                <img src="/images/urunler/samba.jpg" alt="Samba" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Samba">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.freeipa.org/page/Directory_Server" target="_blank">
-                <img src="/images/urunler/freeipa.jpg" alt="FreeIPA" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="FreeIPA">
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="card w-100 urunler-card my-3">
-    <h5 class="card-header">Veritabanı Sunucusu</h5>
-    <div class="card-body row">
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.postgresql.org/" target="_blank">
-                <img src="/images/urunler/postgresql.jpg" alt="PostgreSQL" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="PostgreSQL">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://mariadb.org/" target="_blank">
-                <img src="/images/urunler/mariadb.jpg" alt="MariaDB" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="MariaDB">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.mysql.com/" target="_blank">
-                <img src="/images/urunler/mysql.jpg" alt="MySQL" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="MySQL">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.mongodb.com/" target="_blank">
-                <img src="/images/urunler/mongodb.jpg" alt="MongoDB" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="MongoDB">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.sqlite.org/index.html" target="_blank">
-                <img src="/images/urunler/sqlite.jpg" alt="SQLite" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="SQLite">
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="card w-100 urunler-card my-3">
-    <h5 class="card-header">Web Sunucu ve Servisleri</h5>
-    <div class="card-body row">
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.apache.org/" target="_blank">
-                <img src="/images/urunler/apache.jpg" alt="Apache" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Apache">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="https://www.nginx.com/" target="_blank">
-                <img src="/images/urunler/nginx.jpg" alt="NGINX" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="NGINX">
-            </a>
-        </div>
-        <div class="col-md-3 urunler-picture mb-3">
-            <a href="http://tomcat.apache.org/" target="_blank">
-                <img src="/images/urunler/tomcat.jpg" alt="Tomcat" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Tomcat">
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="card w-100 urunler-card my-3">
-    <h5 class="card-header">Mail Sunucuları</h5>
-    <div class="card-body row">
-        <div class="col-md-3 urunler-picture">
-            <a href="https://www.zimbra.com/" target="_blank">
-                <img src="/images/urunler/zimbra.jpg" alt="Zimbra" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Zimbra">
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="card w-100 urunler-card my-3">
-    <h5 class="card-header">Güvenlik Sunucuları</h5>
-    <div class="card-body row">
-        <div class="col-md-3 urunler-picture">
-            <a href="http://www.ahtapot.org.tr/" target="_blank">
-                <img src="/images/urunler/ahtapot.jpg" alt="Ahtapot" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Ahtapot">
-            </a>
-        </div>
-    </div>
-</div>
