@@ -1,6 +1,6 @@
 <div class="container mt-5">
-    <div class="row egitim-row">
-        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}    
+    <div class="row egitim-row blog-row">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) 3 }}    
         {{ range $paginator.Pages }}
             {{ .Render "home_post" }}
         {{ end }}

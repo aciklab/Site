@@ -90,6 +90,7 @@ section#hero {
 @media only screen and (min-width: 992px) {
     .carousel-inner {
         height: calc(100vh - 240px);
+        width: calc(100% + 50px);
         align-items: center;
     }
 
@@ -641,4 +642,36 @@ thead {
     .mouse-indicator {
         display: none;
     }
+}
+
+#navbar > ul > li:nth-child(2) > a::before {
+    visibility: visible;
+    width: 100%;
+    animation-name: bottomanimation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bottomanimation {
+    0% {
+        width: 0%;
+        margin-left: 0;
+    }
+    50% {
+        width: 100%;
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 100%;
+        width: 0%;
+    }
+}
+
+.blog-row > .blog-post {
+    border-right: 1px rgb(212, 212, 212) solid;
+}
+
+.blog-row > .blog-post:last-of-type {
+    border-right: 0;
 }

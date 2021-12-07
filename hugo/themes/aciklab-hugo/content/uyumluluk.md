@@ -2,10 +2,10 @@
 page_title: Uyumluluk
 title: Uyumluluk
 menu:
-    main:
-        identifier: "uyumluluk"
-        weight: 5
+    footer:
         name: "Uyumluluk"
+        parent: diger
+        weight: 5
 layout: skeleton
 ---
 

@@ -18,6 +18,7 @@
                             {{ end }}
                         </div>
                         {{ end }}
+                        <br>
                         {{ if $v.buttons }}
                         <div>
                             {{ range $v.buttons }}
@@ -27,7 +28,7 @@
                         {{ end }}
                     </div>
                     {{ if $v.image }}
-                    <div class="col-lg-6 order-1 order-lg-2 hero-img p-0 text-center pr-2" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="d-flex flex-column col-lg-6 order-1 order-lg-2 hero-img p-0 pr-2" style="justify-content: center; align-items: right;" data-aos="zoom-in" data-aos-delay="200">
                         <img src="{{ printf "/images/%s.png"  $v.image | relURL }}" class="img-fluid" alt="">
                     </div>
                     {{ end }}
