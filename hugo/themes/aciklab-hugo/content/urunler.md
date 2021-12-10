@@ -92,13 +92,9 @@ Genel Kamu Lisansı'na sahip Özgür ve Açık Kaynak Kodlu yazılımlar ile her
     </div>
 </div>
 
-<div class="card w-100 urunler-card my-3">
-<a class="d-block w-100" data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapse">
-        <h5 class="card-header">Desteklenen Versiyon Listesi
-        <i class="fa fa-chevron-down float-right"></i>
+<div class="card w-100 urunler-card my-3"><h5 class="card-header">Desteklenen Versiyon Listesi
         </h5>
-</a>
-        <div class="collapse w-100" id="collapse">
+        <div class="w-100">
             <div class="card-body">
             <table id="table3" class="display dataTable table table-striped table-bordered" style="width: 100%;" role="grid" aria-describedby="example2_info">
                 <thead>

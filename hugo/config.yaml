@@ -42,14 +42,6 @@ params:
     button_text: İletişime geçin
     button_link: "/iletisim"
   hero:
-    - title: Açık Kaynak Teknoloji Kampı
-      subtitle: HAVELSAN olarak açık kaynak kodlu teknolojiler alanında kamu kurumları, askeri kurumlar ve özel sektör alt yapılarında bulunan kurumsal lisanslı ürünlerin açık kaynak teknolojileri alanında dönüşümünü hedeflemektedir. HAVELSAN Açık Kaynak Teknoloji Kampı ile Türkiye’nin dijital dönüşümünde açık kaynak teknlojileri alanında görev alacak gençlerin kariyer gelişimine katkı sunmayı hedefliyoruz.
-      buttons:
-        - text: Detaylı Bilgi
-          link: /duyurular/a%C3%A7%C4%B1k-kaynak-teknoloji-kamp%C4%B1-ba%C5%9Fvurular%C4%B1-ba%C5%9Flad%C4%B1/
-        - text: Hemen Başvur!
-          link: https://vizyonergenc.com/ilan/havelsan/1505-acik-kaynak-teknoloji-kampi
-      image: aciklab_slide_1
     - title: HAVELSAN Açıklab
       subtitle: Açık kaynak projeler geliştirerek; Türkiye başta olmak üzere tüm dünyada kullanılan açık kaynak güvenilir, inovatif ürünler sunmak, bu anlamda Türkiye’nin yazılım dışa bağımlılığını azaltmak, Türkiye’de açık kaynak kullanımını artırmak, dünyaca bilinir bir açık kaynak yazılım şirketi olmayı hedeflemektedir.
       buttons:
@@ -64,6 +56,14 @@ params:
         - text: Demo Talebi
           link: "https://liman.havelsan.com.tr/iletisim/"
       image: liman-screen  
+    - title: Açık Kaynak Teknoloji Kampı
+      subtitle: HAVELSAN olarak açık kaynak kodlu teknolojiler alanında kamu kurumları, askeri kurumlar ve özel sektör alt yapılarında bulunan kurumsal lisanslı ürünlerin açık kaynak teknolojileri alanında dönüşümünü hedeflemektedir. HAVELSAN Açık Kaynak Teknoloji Kampı ile Türkiye’nin dijital dönüşümünde açık kaynak teknlojileri alanında görev alacak gençlerin kariyer gelişimine katkı sunmayı hedefliyoruz.
+      buttons:
+        - text: Detaylı Bilgi
+          link: /duyurular/a%C3%A7%C4%B1k-kaynak-teknoloji-kamp%C4%B1-ba%C5%9Fvurular%C4%B1-ba%C5%9Flad%C4%B1/
+        - text: Hemen Başvur!
+          link: https://vizyonergenc.com/ilan/havelsan/1505-acik-kaynak-teknoloji-kampi
+      image: aciklab_slide_1
 
   section_about: 
     video_link: "https://www.youtu.be/yZyScWN2IbQ"
@@ -77,11 +77,11 @@ params:
     logo: footer-logo.png
     socialmedia:
       - link: https://github.com/aciklab
-        icon: "fa fa-github"
+        icon: "fab fa-github"
       - link: https://www.aciklab.org/
-        icon: "fa fa-globe"
+        icon: "fas fa-globe"
       - link: mailto:aciklab@havelsan.com.tr
-        icon: "fa fa-envelope"
+        icon: "fas fa-envelope"
 module:
   imports:
     path: "github.com/gohugoio/hugo-mod-bootstrap-scss-v4"

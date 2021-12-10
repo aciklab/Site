@@ -3,7 +3,8 @@ title: "İletişim"
 title_hidden: true
 menu:
   main:
-    weight: 6
+    weight: 7
+    name: "Bizimle iletişime geçin!"
   footer:
     parent: diger
     name: "İletişim"

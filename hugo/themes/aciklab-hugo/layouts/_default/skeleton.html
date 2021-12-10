@@ -1,6 +1,8 @@
 {{ define "main" }}
 {{ partial "nav.html" . }}
 {{ partial "breadcrumb.html" . }}
+{{ if eq .Params.Title "Destek Planları"}}
+{{ partial "plans.html" . }}
+{{ end }}
 {{ .Content}}
-{{ partial "brands.html" . }}
 {{ end }}

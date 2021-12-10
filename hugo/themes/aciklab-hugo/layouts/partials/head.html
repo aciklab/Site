@@ -14,6 +14,7 @@
     />
     <link rel="icon" href="/fav.png" type="image/png">
     <link rel="stylesheet" href="/fonts/inter.css">
+    <link rel="stylesheet" href="/fonts/fontawesome.css">
     {{ $style := resources.Get "scss/main.scss" | resources.ToCSS | minify -}}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     

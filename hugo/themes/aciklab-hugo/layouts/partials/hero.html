@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 text-center text-lg-left"
                         data-aos-anchor-placement="top-center" data-aos="fade-up" data-aos-delay="200">
-                        <h1 class="big mb-3" style="font-family: Arial, Helvetica, sans-serif;">{{ $v.title }}</h1>
+                        <h1 class="big mb-3">{{ $v.title }}</h1>
                         <h5 class="mb-3">{{ safeHTML $v.subtitle }}</h5>
                         {{ if $v.logos }}
                         <div class="row mt-4 mb-5">
@@ -22,7 +22,7 @@
                         {{ if $v.buttons }}
                         <div>
                             {{ range $v.buttons }}
-                            <a href="{{ .link | relURL }}" class="btn btn-primary btn-lg btn-color-low ">{{ .text }}</a>
+                            <a href="{{ .link | relURL }}" class="btn btn-primary btn-lg btn-color-low mr-2">{{ .text }}</a>
                             {{ end }}
                         </div>
                         {{ end }}

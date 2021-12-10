@@ -1,12 +1,16 @@
 <div class="container mt-5">
     <div class="row egitim-row blog-row">
+        <div class="col-12 text-center mb-4">
+            <h2>Duyurularımız</h2>
+            <p style="color: #64748b">Açık kaynak dünyası hakkında duyurularımız.</p>
+        </div>
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) 3 }}    
         {{ range $paginator.Pages }}
             {{ .Render "home_post" }}
         {{ end }}
         <div class="col-12 text-center mb-md-0 mb-5" onclick="window.location.href=/duyurular/">
-            <button class="btn btn-lg btn-primary btn-color-low">
-                Tüm Duyuruları Görüntüleyin
+            <button class="btn btn-primary btn-color-low text-uppercase" style="border-radius: 35px; padding: 15px 35px;">
+                <i class="fas fa-bullhorn mr-2"></i> Tüm Duyuruları Görüntüleyin
             </button>
         </div>
     </div>
