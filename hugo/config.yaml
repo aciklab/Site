@@ -42,11 +42,13 @@ params:
     button_text: İletişime geçin
     button_link: "/iletisim"
   hero:
-    - title: Destek Planları
+    - title: Açık Kaynak Destek Planları
       subtitle: Açık Kaynak Kodlu 20'yi aşkın yazılımın kurumsal sistem ortamlarında çalıştırılmasıyla ilgili uzaktan destek hizmeti sağlıyoruz. Bu yazılımların başında PostgreSQL, OpenStack, Kubernetes, Docker, Ceph, Hyperledger Fabric ve Hadoop da bulunmakta. Tüm liste için ürünler sayfamıza bakabilirsiniz.
       buttons: 
         - text: Destek planlarını inceleyin
           link: "destek-planlari"
+        - text: Ürün listesi
+          link: "urunler"
       image: aciklab_destek
     - title: Merkezi Yönetim Sistemi
       subtitle: BT süreçlerinizde bulunan bütün bileşenleri uzaktan, kararlı, güvenli ve genişletilebilir yöntemler ile merkezi olarak yönetmenizi sağlar.<br/><br/>Açık kaynak göç projelerinde Linux çekirdeğine sahip işletim sistemlerini ve diğer platformları Liman MYS ile yönetebilirsiniz.
