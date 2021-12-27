@@ -60,6 +60,10 @@ layout: skeleton
                                     <i class="fa fa-comment float-left fa-2x mr-3"></i>
                                     <span class="float-left">Katılım ön şartı yoktur.</span>
                                 </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
+                                </div>
                             </div>
                             <div class="card-content p-3 mt-4" style="background-color: rgba(0,0,0,0.05)">
                                 <p class="mb-1">Bu eğitim aşağıdaki konuları içermektedir:</p>
@@ -76,6 +80,10 @@ layout: skeleton
                                 <div class="d-flex align-items-center float-left mr-5">
                                     <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     <span class="float-left">Genel katılım, özellikle çeşitli Debian GNU/Linux tabanlı sistemlerini yönetmek isteyen kullanıcılara yöneliktir.</span>
+                                </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
                         </div>
@@ -124,6 +132,10 @@ layout: skeleton
                                     <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     <span class="float-left">Genel katılım, özellikle çeşitli Debian GNU/Linux tabanlı sistemlerini yönetmek isteyen kullanıcılara yöneliktir.</span>
                                 </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -168,6 +180,10 @@ layout: skeleton
                                     <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     <span class="float-left">Sistem yöneticileri ve sistem teknik uzmanlarını hedefleyen bir eğitimdir.</span>
                                 </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -211,6 +227,10 @@ layout: skeleton
                                 <div class="d-flex align-items-center float-left mr-5">
                                     <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     <span class="float-left">Sistem yöneticileri ve sistem teknik uzmanlarını hedefleyen bir eğitimdir.</span>
+                                </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
                         </div>
@@ -298,6 +318,10 @@ layout: skeleton
                                     <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     <span class="float-left">Sistem yöneticileri, sistem teknik uzmanları ve sistem programcılarını hedefleyen bir eğitimdir.</span>
                                 </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -340,6 +364,10 @@ layout: skeleton
                                 <div class="d-flex align-items-center float-left mr-5">
                                     <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     <span class="float-left">Sistem yöneticileri, sistem teknik uzmanları ve sistem programcılarını hedefleyen bir eğitimdir.</span>
+                                </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
                         </div>
@@ -386,6 +414,10 @@ layout: skeleton
                                     <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     <span class="float-left">Sistem yöneticileri, sistem teknik uzmanları ve sistem programcılarını hedefleyen bir eğitimdir.</span>
                                 </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -428,6 +460,10 @@ layout: skeleton
                                 <div class="d-flex align-items-center float-left mr-5">
                                     <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                                     <span class="float-left">Sistem yöneticileri ve sistem teknik uzmanlarını hedefleyen bir eğitimdir.</span>
+                                </div>
+                                <div class="d-flex align-items-center float-left mr-5">
+                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
                         </div>
