@@ -1,16 +1,7 @@
 <script src="/scripts/popper.min.js"></script>
 <script
   src="/scripts/aciklab.bundle.js"
-></script><!--
-<script
-  src="/scripts/bootstrap.min.js"
 ></script>
-<script
-  src="/scripts/aos.js"
-></script>
-<script
-  src="/scripts/venobox.min.js"
-></script>-->
 <script
   src="/scripts/aciklab.js"
 ></script>
@@ -24,4 +15,32 @@
 <link rel="stylesheet" href="/scripts/dataTables.bootstrap4.min.css">
 <script src="/scripts/jquery.dataTables.min.js"></script>
 <script src="/scripts/dataTables.bootstrap4.min.js"></script>
+{{ end }}
+
+{{ if eq .Params.title "İletişim" }}
+<script src="https://www.google.com/recaptcha/api.js?render=6LevwDYeAAAAADIdL5yw0mEFdPtzn48qyZgRfeaq"></script>
+<script>
+$('#contact').on('submit', function (e) {
+  e.preventDefault();
+  e.stopImmediatePropagation();
+  e.stopPropagation();
+  grecaptcha.ready(function() {
+      grecaptcha.execute('6LevwDYeAAAAADIdL5yw0mEFdPtzn48qyZgRfeaq', {action: 'subscribe_newsletter'}).then(function(token) {
+          $('#contact').prepend('<input type="hidden" name="token" value="' + token + '">');
+          $('#contact').prepend('<input type="hidden" name="action" value="subscribe_newsletter">');
+          $.ajax({
+            type: "POST",
+            url: "https://ws.aciklab.org/contact.php",
+            data: $('#contact').serialize(),
+            success: function (data) {
+                $('#contact')[0].reset();
+                $("#uyari").html(`<div class="alert alert-success" role="alert">
+                  ${data}
+                </div>`);
+            }
+        });
+      });
+  });
+});
+</script>
 {{ end }}
