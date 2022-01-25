@@ -30,7 +30,7 @@ $('#contact').on('submit', function (e) {
           $('#contact').prepend('<input type="hidden" name="action" value="subscribe_newsletter">');
           $.ajax({
             type: "POST",
-            url: "https://ws.aciklab.org/contact.php",
+            url: "https://ws.aciklab.org/contact",
             data: $('#contact').serialize(),
             success: function (data) {
                 $('#contact')[0].reset();
