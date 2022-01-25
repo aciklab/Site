@@ -20,6 +20,9 @@ AçıkLab Açık Kaynak çözümleri kurumların ihtiyaçlarına özel geliştir
     <p>
         Sizler de alternatif açık kaynak çözümlerimiz; işletim sistemi göç projeleri, açık kaynak yönetim hizmetleri (Liman MYS), açık kaynak veritabanı hizmetlerimiz ve ücretsiz hizmetlerimizden faydalanmak için iletişim formunu doldurunuz.
     </p>
+    <p>
+        Yandaki formu doldurarak, açık kaynak ve kurumsal uygulamalarla ilgili sizlerle iletişime geçebilir, demo talebinde bulunabilirsiniz.
+    </p>
 </div>
 <div class="col-12 col-lg-6">
     <style>
