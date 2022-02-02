@@ -89,6 +89,42 @@ Genel Kamu Lisansı'na sahip Özgür ve Açık Kaynak Kodlu yazılımlar ile her
         <div class="col-md-2 urunler-picture mb-3">
             <img src="/images/urunler/haproxy.jpg" alt="HAproxy" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="HAproxy">
         </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/1.jpg" alt="Openstack CEILMETER" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack CEILMETER">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/2.jpg" alt="Openstack HEAT" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack HEAT">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/3.jpg" alt="Openstack CINDER" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack CINDER">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/4.jpg" alt="Openstack SWIFT" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack SWIFT">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/5.jpg" alt="BIND" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="BIND">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/6.jpg" alt="Zabbix" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Zabbix">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/7.jpg" alt="Samba DC" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Samba DC">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/8.jpg" alt="Openstack KEYSTONE" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack KEYSTONE">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/9.jpg" alt="Openstack GLANCE" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack GLANCE">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/10.jpg" alt="Openstack NOVA" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack NOVA">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/11.jpg" alt="Openstack NEUTRON" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack NEUTRON">
+        </div>
+        <div class="col-md-2 urunler-picture mb-3">
+            <img src="/images/urunler/12.jpg" alt="Openstack HORIZON" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Openstack HORIZON">
+        </div>
     </div>
 </div>
 
@@ -113,8 +149,40 @@ Genel Kamu Lisansı'na sahip Özgür ve Açık Kaynak Kodlu yazılımlar ile her
                         <td>14.2.11, 15.2.8</td>
                     </tr>
                     <tr>
-                        <td>OpenStack</td>
-                        <td>CINDER 7.2.0, HORIZON 18.6.1, KEYSTONE 18.0, NEUTRON 7.2.1, NOVA 17.2.1</td>
+                        <td>OpenStack CINDER</td>
+                        <td>7.2.0</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack HORIZON </td>
+                        <td>18.6.1</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack KEYSTONE </td>
+                        <td>18.0</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack NEUTRON </td>
+                        <td>7.2.1</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack NOVA </td>
+                        <td>17.2.1</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack CEILMETER </td>
+                        <td>CEILMETER</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack GLANCE </td>
+                        <td>GLANCE</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack SWIFT </td>
+                        <td>SWIFT</td>
+                    </tr>
+                    <tr>
+                        <td>OpenStack HEAT </td>
+                        <td>HEAT</td>
                     </tr>
                     <tr>
                         <td>Hyperledger Fabric</td>
