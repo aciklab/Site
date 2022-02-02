@@ -91,6 +91,8 @@ AçıkLab Açık Kaynak çözümleri kurumların ihtiyaçlarına özel geliştir
                 <option value="RabbitMQ">RabbitMQ</option>
                 <option value="SonarQube">SonarQube</option>
                 <option value="Tensorflow">Tensorflow</option>
+                <option value="Samba DC">Samba DC</option>
+                <option value="Zabbix">Zabbix</option>
             </select>
         </div>
         <div class="form-group">
