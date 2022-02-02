@@ -76,7 +76,15 @@ AçıkLab Açık Kaynak çözümleri kurumların ihtiyaçlarına özel geliştir
                 <option value="Matplotlib">Matplotlib</option>
                 <option value="MongoDB">MongoDB</option>
                 <option value="NumPy">NumPy</option>
-                <option value="OpenStack">OpenStack</option>
+                <option value="OpenStack CEILMETER">OpenStack CEILMETER</option>
+                <option value="OpenStack CINDER">OpenStack CINDER </option>
+                <option value="OpenStack GLANCE">OpenStack GLANCE</option>
+                <option value="OpenStack HEAT">OpenStack HEAT</option>
+                <option value="OpenStack HORIZON">OpenStack HORIZON</option>
+                <option value="OpenStack KEYSTONE">OpenStack KEYSTONE</option>
+                <option value="OpenStack NEUTRON">OpenStack NEUTRON</option>
+                <option value="OpenStack NOVA">OpenStack NOVA</option>
+                <option value="OpenStack SWIFT">OpenStack SWIFT</option>
                 <option value="oVirt">oVirt</option>
                 <option value="PostgreSQL">PostgreSQL</option>
                 <option value="Prometheus">Prometheus</option>
