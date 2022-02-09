@@ -34,7 +34,7 @@ params:
   description: HAVELSAN Açıklab Açık Kaynaklı Yazılım Geliştirme
   navbarlogo:
     main:
-      image: aciklab_pardus2.png
+      image: aciklab-new-logo.png
     sub:
       image: sub.svg
   banner:

@@ -17,7 +17,7 @@
 <script src="/scripts/dataTables.bootstrap4.min.js"></script>
 {{ end }}
 
-{{ if or (eq .Params.title "Eğitimler") (eq .Params.title "İletişim") (eq .Params.title "Hizmetler") }}
+{{ if or (eq .Params.title "Eğitimler") (eq .Params.title "İletişim") (eq .Params.title "Hizmetler") (eq .Params.title "Uyumluluk") }}
 <script src="https://www.google.com/recaptcha/api.js?render=6LevwDYeAAAAADIdL5yw0mEFdPtzn48qyZgRfeaq"></script>
 <script>
 $('#contact').on('submit', function (e) {
