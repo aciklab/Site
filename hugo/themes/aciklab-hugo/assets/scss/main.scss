@@ -23,7 +23,7 @@ body {
 
 .navbar-brand {
   :first-child {
-    max-height: 1.8rem;
+    max-height: 2.5rem;
   }
 
   :last-child {
@@ -987,4 +987,8 @@ section.pricing {
 
 .footer-brands {
   margin: 35px 0;
+}
+
+.font-weight-semibold {
+  font-weight: 600;
 }

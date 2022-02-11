@@ -5,7 +5,7 @@ menu:
     main:
         identifier: "sss"
         weight: 6
-        name: "SSS"
+        name: "S.S.S."
 layout: skeleton
 ---
 

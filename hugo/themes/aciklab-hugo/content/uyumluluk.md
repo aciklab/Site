@@ -465,43 +465,45 @@ layout: skeleton
          </button>
        </div>
        <div class="modal-body">
-         <div class="container" id="ff-compose"></div>
-         <style>
-         #ff-compose small {
-            display: none;
-         }
-         </style>
-         <script type="text/javascript">
-         function ready(callback) {
-            if (document.readyState != 'loading') callback();
-            else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
-            else document.attachEvent('onreadystatechange', function(){
-               if (document.readyState == 'complete') callback();
-            });
-         }
-         function callback() {
-            ready(function() {
-               convert();
-               const render = formFacade.render;
-               formFacade.render = function() {
-                     render.apply(this, arguments);
-                     convert();
-               }
-            })
-         }
-         function convert() {
-            $("#ff-compose .ff-item").each(function(_, el) {
-               const text = $(el).find("label").clone()
-                     .children()
-                     .remove()
-                     .end()
-                     .text().trim();
-               $(el).find("input,textarea").attr("placeholder", text);
-               $(el).find("input,textarea").after("<hr />");
-            });
-         }
-         </script>
-         <script async defer src="https://formfacade.com/include/112609387266663882077/form/1FAIpQLSfNxTR9C7FF7L0W2eaftRmd4hr0krwSCgD3tzRScg4Nh1ZUyA/bootstrap.js?div=ff-compose&callback=callback"></script>
+        <style>
+        .form-group > label {
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: rgba(0,0,0, 0.7);
+        }
+        .form-control {
+            border-bottom: 2px rgba(0,0,0,0.2) solid;
+        }
+    </style>
+    <div id="uyari"></div>
+    <form id="contact" action method="post">
+        <div class="form-group">
+            <label for="kurum-adi">Kurum Adı</label>
+            <input name="kurum-adi" type="text" class="form-control" id="kurum-adi">
+        </div>
+        <div class="form-group">
+            <label for="name">İletişim kurulacak kişinin adı ve soyadı</label>
+            <input name="name" type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+            <label for="email">E-posta adresi</label>
+            <input name="email" type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="adres">Kurum adresi</label>
+            <input name="adres" type="text" class="form-control" id="adres">
+        </div>
+        <div class="form-group">
+            <label for="telefon">Telefon</label>
+            <input name="telefon" type="text" class="form-control" id="telefon">
+        </div>
+        <div class="form-group">
+            <label for="aciklama">Mesaj</label>
+            <textarea class="form-control" id="aciklama" name="aciklama" rows="3"></textarea>
+        </div>
+        <button type="submit" id="contactButton" class="btn btn-primary">Gönder</button>
+    </form>
        </div>
      </div>
    </div>

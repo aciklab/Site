@@ -38,8 +38,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-parsy-101">
-                        <i class="fab fa-linux fa-3x ml-1 mr-3 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px;">
                             <b>HVL-PARSY-101</b> (Temel):<br class="d-md-none d-block">
                             GNU/Linux Sistem Yönetimi
                         </span>
@@ -91,8 +90,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-parsy-102">
-                        <i class="fab fa-linux fa-3x ml-1 mr-3 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-PARSY-102</b> (İleri):<br class="d-md-none d-block">
                             GNU/Linux Sistem Yönetimi
                         </span>
@@ -142,8 +140,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-partd-103">
-                        <i class="fa fa-server fa-3x mr-3 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-PARTD-103</b>:<br class="d-md-none d-block">
                             Pardus Teknik Destek (Sunucu)
                         </span>
@@ -190,8 +187,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-partd-104">
-                        <i class="fa fa-life-ring fa-3x mr-3 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-PARTD-104</b>:<br class="d-md-none d-block">
                             Pardus Teknik Destek (İstemci)
                         </span>
@@ -238,8 +234,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#teknoloji-kamplari">
-                        <i class="fas fa-university fa-3x mr-3 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Teknoloji Kampları</b>
                         </span>
                         <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
@@ -254,8 +249,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#farkindalik">
-                        <i class="fas fa-user fa-3x mr-4 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Farkındalık Eğitimleri</b>
                         </span>
                         <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
@@ -271,7 +265,7 @@ layout: skeleton
             </div>
             <div id="uzman-egitimler" class="row egitim-row" data-aos="fade-up">
                 <div class="col-12 mt-5">
-                    <h2 class="mb-3 float-left">Uzman Eğitimler</h2>
+                    <h2 class="mb-3 float-left">İleri Seviye Eğitimler</h2>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-lg btn-color-low float-right mb-3" data-toggle="modal" data-target="#modalCenter">
                         Eğitim Talep Formu
@@ -279,8 +273,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-201">
-                        <i class="fa fa-folder-open fa-3x mr-2 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-PARSY-201</b>:<br class="d-md-none d-block">
                             OpenLDAP Dizin Sistemi
                         </span>
@@ -328,8 +321,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-202">
-                        <i class="fa fa-copy fa-3x mr-3 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-PARSY-202</b>:<br class="d-md-none d-block">
                             SAMBA DC Etki Alanı
                         </span>
@@ -375,8 +367,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-203">
-                        <i class="fa fa-table fa-3x mr-3 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-PARSY-203</b>:<br class="d-md-none d-block">
                             Sistem Yöneticileri için Betik Yazımı
                         </span>
@@ -424,8 +415,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-204">
-                        <i class="fa fa-server fa-3x mr-3 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-PARSY-204</b>:<br class="d-md-none d-block">
                             DNS ve DHCP Sunucu Yönetimi
                         </span>
@@ -478,8 +468,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-sql-101">
-                        <i class="fas fa-database fa-3x mr-2 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-SQL-101</b>:<br class="d-md-none d-block">
                             SQL Eğitimi 1
                         </span>
@@ -533,8 +522,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-sql-102">
-                    <i class="fas fa-database fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-SQL-102</b>:<br class="d-md-none d-block">
                         SQL Eğitimi 2
                     </span>
@@ -596,8 +584,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsql-101">
-                    <i class="fas fa-database fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-PGSQL-101</b>:<br class="d-md-none d-block">
                         PSQL Eğitimi 1
                     </span>
@@ -652,8 +639,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsql-102">
-                        <i class="fas fa-database fa-3x mr-2 float-left"></i>
-                        <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>HVL-PGSQL-102</b>:<br class="d-md-none d-block">
                             PSQL Eğitimi 2
                         </span>
@@ -705,8 +691,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgadm-201">
-                    <i class="fas fa-database fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-PGADM-201</b>:<br class="d-md-none d-block">
                         PostgreSQL Performans Yönetimi
                     </span>
@@ -753,8 +738,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgadm-202">
-                    <i class="fas fa-database fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-PGADM-202</b>:<br class="d-md-none d-block">
                         PostgreSQL Cluster Yönetimi
                     </span>
@@ -802,8 +786,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsys-101">
-                    <i class="fas fa-database fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-PGSYS-101</b>:<br class="d-md-none d-block">
                         Sistem Yöneticileri İçin PostgreSQL
                     </span>
@@ -856,8 +839,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-bgd-101">
-                    <i class="fa fa-folder-open fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-BGD-101</b>:<br class="d-md-none d-block">
                         HVL-BGD-101
                     </span>
@@ -913,8 +895,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-bgd-102">
-                    <i class="fa fa-folder-open fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-BGD-102</b>:<br class="d-md-none d-block">
                         HVL-BGD-102
                     </span>
@@ -969,8 +950,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-aky-101">
-                    <i class="fa fa-folder-open fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-AKY-101</b>:<br class="d-md-none d-block">
                         Sistem Yöneticileri için Python Giriş
                     </span>
@@ -1028,8 +1008,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-kub-101">
-                    <i class="fa fa-folder-open fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-KUB-101</b>:<br class="d-md-none d-block">
                         HVL-KUB-101
                     </span>
@@ -1084,8 +1063,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-cep-101">
-                    <i class="fa fa-folder-open fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-CEP-101</b>:<br class="d-md-none d-block">
                         HVL-CEP-101
                     </span>
@@ -1144,8 +1122,7 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-zab-101">
-                    <i class="fa fa-folder-open fa-3x mr-2 float-left"></i>
-                    <span class="float-left mt-md-2 mt-0" style="font-size: 20px; margin-top: 9px;">
+                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                         <b>HVL-ZAB-101</b>:<br class="d-md-none d-block">
                         HVL-ZAB-101
                     </span>
@@ -1213,43 +1190,45 @@ layout: skeleton
           </button>
         </div>
         <div class="modal-body">
-            <div class="container" id="ff-compose"></div>
             <style>
-            #ff-compose small {
-                display: none;
-            }
-            </style>
-            <script type="text/javascript">
-            function ready(callback) {
-                if (document.readyState != 'loading') callback();
-                else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
-                else document.attachEvent('onreadystatechange', function(){
-                    if (document.readyState == 'complete') callback();
-                });
-            }
-            function callback() {
-                ready(function() {
-                    convert();
-                    const render = formFacade.render;
-                    formFacade.render = function() {
-                        render.apply(this, arguments);
-                        convert();
-                    }
-                })
-            }
-            function convert() {
-                $("#ff-compose .ff-item").each(function(_, el) {
-                    const text = $(el).find("label").clone()
-                        .children()
-                        .remove()
-                        .end()
-                        .text().trim();
-                    $(el).find("input,textarea").attr("placeholder", text);
-                    $(el).find("input,textarea").after("<hr />");
-                });
-            }
-            </script>
-            <script async defer src="https://formfacade.com/include/112609387266663882077/form/1FAIpQLSfNxTR9C7FF7L0W2eaftRmd4hr0krwSCgD3tzRScg4Nh1ZUyA/bootstrap.js?div=ff-compose&callback=callback"></script>
+        .form-group > label {
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: rgba(0,0,0, 0.7);
+        }
+        .form-control {
+            border-bottom: 2px rgba(0,0,0,0.2) solid;
+        }
+    </style>
+    <div id="uyari"></div>
+    <form id="contact" action method="post">
+        <div class="form-group">
+            <label for="kurum-adi">Kurum Adı</label>
+            <input name="kurum-adi" type="text" class="form-control" id="kurum-adi">
+        </div>
+        <div class="form-group">
+            <label for="name">İletişim kurulacak kişinin adı ve soyadı</label>
+            <input name="name" type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group">
+            <label for="email">E-posta adresi</label>
+            <input name="email" type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="adres">Kurum adresi</label>
+            <input name="adres" type="text" class="form-control" id="adres">
+        </div>
+        <div class="form-group">
+            <label for="telefon">Telefon</label>
+            <input name="telefon" type="text" class="form-control" id="telefon">
+        </div>
+        <div class="form-group">
+            <label for="aciklama">Mesaj</label>
+            <textarea class="form-control" id="aciklama" name="aciklama" rows="3"></textarea>
+        </div>
+        <button type="submit" id="contactButton" class="btn btn-primary">Gönder</button>
+    </form>
         </div>
       </div>
     </div>

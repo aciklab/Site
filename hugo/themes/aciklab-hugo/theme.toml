@@ -5,7 +5,7 @@ description = "Aciklab Hugo Temasi"
 homepage = "https://www.aciklab.org/"
 tags = []
 features = []
-min_version = "0.68"
+min_version = "0.92"
 
 [author]
   name = "Dogukan OKSUZ"
