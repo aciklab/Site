@@ -36,13 +36,17 @@
             </div>
             {{ end }}
         </div>
+        {{ if eq 0 1}}
         <div class="mouse-indicator w-100">
             <a href="#main"><span></span></a>
         </div>
+        {{ end }}
+        {{ if ne (len $hero) 1}}
         <ol class="carousel-indicators">
             {{ range $i,$v := $hero }}
             <li data-target="#hero-carousel" data-slide-to="{{ $i }}" {{ if eq $i 0}} class="active" {{ end }}></li>
             {{ end }}
         </ol>
+        {{ end }}
     </div>
 </section>

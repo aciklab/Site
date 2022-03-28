@@ -87,20 +87,6 @@ section#hero {
   color: #ffffff;
 }
 
-@media only screen and (min-width: 992px) {
-  .carousel-inner {
-    height: calc(100vh - 288px);
-    width: calc(100% + 50px);
-    align-items: center;
-  }
-
-  .mouse-indicator {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-}
-
 .carousel-indicators {
   bottom: -50px;
 
@@ -367,23 +353,23 @@ section#comparison {
 }
 
 .egitim-box {
-  background-color: #7a49c6;
+  background-color: #113B6A;
   color: #fff;
   transition: all 0.3s;
 
   &:hover {
-    background-color: #6234a8;
+    background-color: #113B6A;
     color: #fff;
   }
 }
 
 .egitim-box-uzman {
-  background-color: #c64990;
+  background-color: #113B6A;
   color: #fff;
   transition: all 0.3s;
 
   &:hover {
-    background-color: #a83476;
+    background-color: #113B6A;
     color: #fff;
   }
 }
@@ -393,8 +379,8 @@ section#comparison {
     font-size: 4em !important;
   }
 
-  .egitim-box .fa-chevron-down,
-  .egitim-box-uzman .fa-chevron-down {
+  .egitim-box .feather-chevron-down,
+  .egitim-box-uzman .feather-chevron-down {
     display: none;
   }
 }
@@ -469,7 +455,7 @@ section#comparison {
   }
 }
 
-.collapsed .fa-chevron-down {
+.collapsed .feather-chevron-down {
   transition: 0.3s all;
   transform: rotate(-90deg);
 }
@@ -503,7 +489,7 @@ section#comparison {
 }
 
 thead {
-  background-color: #7a49c6;
+  background-color: #113B6A;
   color: #fff;
   border-radius: 0 5px 0 5px !important;
 }
@@ -511,7 +497,7 @@ thead {
 .paginate_button {
   margin-top: 10px;
   border-radius: 5px !important;
-  background-color: #3aac7e !important;
+  background-color: #E4003A !important;
   color: #fff !important;
 }
 
@@ -520,8 +506,8 @@ thead {
 }
 
 .page-item.active .page-link {
-  background-color: #3aac7e !important;
-  border-color: #3aac7e !important;
+  background-color: #E4003A !important;
+  border-color: #E4003A !important;
 }
 
 .page-link {
@@ -534,7 +520,7 @@ thead {
 
 .card-header {
   border-radius: 0 !important;
-  background-color: #7a49c6;
+  background-color: #113B6A;
   color: #fff;
   text-transform: uppercase;
   border: 0;
@@ -545,8 +531,8 @@ thead {
 .card {
   border-radius: 0 !important;
   border: 0;
-  background: rgba(0, 0, 0, 0.05);
-  border-bottom: 5px rgba(0, 0, 0, 0.35) solid;
+  background: rgba(218,218,217, 0.3);
+  border-bottom: 5px #dadad9 solid;
 }
 
 .urunler-picture img {
@@ -864,7 +850,6 @@ section.pricing {
   letter-spacing: 0.1rem;
   font-weight: bold;
   padding: 1rem;
-  opacity: 0.7;
   transition: all 0.2s;
 }
 
