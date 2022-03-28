@@ -103,7 +103,7 @@ AçıkLab Açık Kaynak çözümleri kurumların ihtiyaçlarına özel geliştir
             <label for="aciklama">Mesaj</label>
             <textarea class="form-control" id="aciklama" name="aciklama" rows="3"></textarea>
         </div>
-        <button type="submit" id="contactButton" class="btn btn-primary">Gönder</button>
+        <button type="submit" id="contactButton" class="btn btn-primary btn-color-low">Gönder</button>
     </form>
 </div>
 </div>

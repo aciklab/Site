@@ -1,6 +1,6 @@
 $theme-colors: (
-  "primary": #2568ef,
-  "secondary": #54c597,
+  "primary": #113B6A,
+  "secondary": #E4003A,
 );
 $form-group-margin-bottom: 1rem !important;
 $input-bg: #f9f9f9;
@@ -79,11 +79,10 @@ body {
 }
 
 #header {
-  background-image: linear-gradient(139deg, #7a49c6 -10%, #15185b 50%);
+  background: #113B6A;
 }
 
 section#hero {
-  background: url(/images/slide-back.svg) 85% 0px no-repeat;
   position: relative;
   color: #ffffff;
 }
@@ -181,36 +180,36 @@ section#nav {
 }
 
 .banner {
-  background: #54c597;
+  background: #113B6A;
   color: #ffffff;
   font-size: 26px;
 }
 
 .btn-color {
-  background: #1e7a54;
-  border-color: #1e7a54;
+  background: #E4003A;
+  border-color: #E4003A;
 
   &:hover {
-    background: #196646;
+    background: #B8092E;
   }
 
   &:active,
   &:focus {
-    background: #145238 !important;
+    background: #8B0B1F !important;
   }
 }
 
 .btn-color-low {
-  background: #54c597;
-  border-color: #1e7a54;
+  background: #E4003A;
+  border-color: #E4003A;
 
   &:hover {
-    background: #41bf8b;
+    background: #B8092E;
   }
 
   &:active,
   &:focus {
-    background: #3aac7e !important;
+    background: #8B0B1F !important;
   }
 }
 
@@ -261,7 +260,7 @@ h2 {
 }
 
 #footer {
-  background-image: linear-gradient(131deg, #7a49c6 -6%, #15185b 47%);
+  background: #113B6A;
   color: #ffffff;
 
   .list-group-item {
@@ -680,14 +679,14 @@ thead {
       float: right !important;
       padding-right: 14px;
       margin-right: 14px;
-      background: #ff4444;
+      background: #E4003A;
       border-radius: 55px;
       transition: 0.3s all;
       a::before {
         content: none;
       }
       &:hover {
-        background: #ff5555;
+        background: #B8092E;
       }
     }
   }
@@ -894,7 +893,7 @@ section.pricing {
   --tw-ring-inset: var(--tw-empty);
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgba(40, 167, 69, 0.5);
+  --tw-ring-color: rgba(17, 59, 106, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -991,4 +990,44 @@ section.pricing {
 
 .font-weight-semibold {
   font-weight: 600;
+}
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
 }

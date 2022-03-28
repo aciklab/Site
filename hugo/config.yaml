@@ -77,11 +77,11 @@ params:
     logo: footer-logo.png
     socialmedia:
       - link: https://github.com/aciklab
-        icon: "fab fa-github"
+        icon: "feather-github"
       - link: https://www.aciklab.org/
-        icon: "fas fa-globe"
+        icon: "feather-globe"
       - link: mailto:aciklab@havelsan.com.tr
-        icon: "fas fa-envelope"
+        icon: "feather-mail"
 module:
   imports:
     path: "github.com/gohugoio/hugo-mod-bootstrap-scss-v4"

@@ -64,9 +64,9 @@ layout: skeleton
                 </tr>
                 <tr>
                     <th>Uzaktan Bağlantı</th>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
                 </tr>
             </tbody>
             <tbody id="multimedia" data-filter="target">
@@ -78,15 +78,15 @@ layout: skeleton
                 </tr>
                 <tr>
                     <th>Yerinde Müdahale</th>
-                    <td><center><i class="fas fa-times"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
                 </tr>
                 <tr>
                     <th>Lokal Repo Sunucu Ortamı</th>
-                    <td><center><i class="fas fa-times"></i></center></td>
-                    <td><center><i class="fas fa-times"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
                 </tr>
                 <tr>
                     <th>Müdahale Süresi</th>
@@ -96,8 +96,8 @@ layout: skeleton
                 </tr>
                 <tr>
                     <th>Açık Kaynak Ürün Desteği</th>
-                    <td><center><i class="fas fa-times"></i></center></td>
-                    <td><center><i class="fas fa-times"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
                     <td>Sınırsız *</td>
                 </tr>
             </tbody>
@@ -110,9 +110,9 @@ layout: skeleton
                 </tr>
                 <tr>
                     <th>Çağrı Merkezi Erişim</th>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
                 </tr>
                 <tr>
                     <th>Health Check Raporu</th>

@@ -12,7 +12,7 @@
             {{ if ne .Params.date nil }}
             {{ $dateFormat := "02/01/2006" }}
             <div class="blog-post-meta mb-3 w-100">
-                <i class="fas fa-calendar mr-2"></i>
+                <i class="feather-calendar mr-2"></i>
                 <time {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>
                   {{ .Date.Format $dateFormat }}
                 </time>

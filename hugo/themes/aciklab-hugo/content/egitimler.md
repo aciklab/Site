@@ -42,21 +42,21 @@ layout: skeleton
                             <b>HVL-PARSY-101</b> (Temel):<br class="d-md-none d-block">
                             GNU/Linux Sistem Yönetimi
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-101" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">Katılım ön şartı yoktur.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
@@ -94,21 +94,21 @@ layout: skeleton
                             <b>HVL-PARSY-102</b> (İleri):<br class="d-md-none d-block">
                             GNU/Linux Sistem Yönetimi
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-102" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-101</span>
                                 </div>
                             </div>
@@ -144,21 +144,21 @@ layout: skeleton
                             <b>HVL-PARTD-103</b>:<br class="d-md-none d-block">
                             Pardus Teknik Destek (Sunucu)
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-partd-103" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -191,21 +191,21 @@ layout: skeleton
                             <b>HVL-PARTD-104</b>:<br class="d-md-none d-block">
                             Pardus Teknik Destek (İstemci)
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-partd-104" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -237,7 +237,7 @@ layout: skeleton
                         <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Teknoloji Kampları</b>
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="teknoloji-kamplari" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -252,7 +252,7 @@ layout: skeleton
                         <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Farkındalık Eğitimleri</b>
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="farkindalik" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -277,21 +277,21 @@ layout: skeleton
                             <b>HVL-PARSY-201</b>:<br class="d-md-none d-block">
                             OpenLDAP Dizin Sistemi
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-201" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -325,21 +325,21 @@ layout: skeleton
                             <b>HVL-PARSY-202</b>:<br class="d-md-none d-block">
                             SAMBA DC Etki Alanı
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-202" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -371,21 +371,21 @@ layout: skeleton
                             <b>HVL-PARSY-203</b>:<br class="d-md-none d-block">
                             Sistem Yöneticileri için Betik Yazımı
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-203" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -419,21 +419,21 @@ layout: skeleton
                             <b>HVL-PARSY-204</b>:<br class="d-md-none d-block">
                             DNS ve DHCP Sunucu Yönetimi
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-204" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -472,21 +472,21 @@ layout: skeleton
                             <b>HVL-SQL-101</b>:<br class="d-md-none d-block">
                             SQL Eğitimi 1
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-sql-101" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-SQL-102</span>
                                 </div>
                             </div>
@@ -526,21 +526,21 @@ layout: skeleton
                         <b>HVL-SQL-102</b>:<br class="d-md-none d-block">
                         SQL Eğitimi 2
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-sql-102" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">3 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-SQL-102</span>
                             </div>
                         </div>
@@ -588,21 +588,21 @@ layout: skeleton
                         <b>HVL-PGSQL-101</b>:<br class="d-md-none d-block">
                         PSQL Eğitimi 1
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsql-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-PGSQL-101</span>
                             </div>
                         </div>
@@ -643,21 +643,21 @@ layout: skeleton
                             <b>HVL-PGSQL-102</b>:<br class="d-md-none d-block">
                             PSQL Eğitimi 2
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsql-102" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">5 gün</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PGSQL-102</span>
                                 </div>
                             </div>
@@ -695,21 +695,21 @@ layout: skeleton
                         <b>HVL-PGADM-201</b>:<br class="d-md-none d-block">
                         PostgreSQL Performans Yönetimi
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgadm-201" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">3 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-PGADM-201</span>
                             </div>
                         </div>
@@ -742,21 +742,21 @@ layout: skeleton
                         <b>HVL-PGADM-202</b>:<br class="d-md-none d-block">
                         PostgreSQL Cluster Yönetimi
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgadm-202" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">3 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-PGADM-202</span>
                             </div>
                         </div>
@@ -790,21 +790,21 @@ layout: skeleton
                         <b>HVL-PGSYS-101</b>:<br class="d-md-none d-block">
                         Sistem Yöneticileri İçin PostgreSQL
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsys-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">2 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-PGSYS-101</span>
                             </div>
                         </div>
@@ -843,21 +843,21 @@ layout: skeleton
                         <b>HVL-BGD-101</b>:<br class="d-md-none d-block">
                         HVL-BGD-101
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-bgd-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-BGD-101</span>
                             </div>
                         </div>
@@ -899,21 +899,21 @@ layout: skeleton
                         <b>HVL-BGD-102</b>:<br class="d-md-none d-block">
                         HVL-BGD-102
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-bgd-102" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-BGD-102</span>
                             </div>
                         </div>
@@ -954,21 +954,21 @@ layout: skeleton
                         <b>HVL-AKY-101</b>:<br class="d-md-none d-block">
                         Sistem Yöneticileri için Python Giriş
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-aky-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">3 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-AKY-101</span>
                             </div>
                         </div>
@@ -1012,21 +1012,21 @@ layout: skeleton
                         <b>HVL-KUB-101</b>:<br class="d-md-none d-block">
                         HVL-KUB-101
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-kub-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-KUB-101</span>
                             </div>
                         </div>
@@ -1067,21 +1067,21 @@ layout: skeleton
                         <b>HVL-CEP-101</b>:<br class="d-md-none d-block">
                         HVL-CEP-101
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-cep-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-CEP-101</span>
                             </div>
                         </div>
@@ -1126,21 +1126,21 @@ layout: skeleton
                         <b>HVL-ZAB-101</b>:<br class="d-md-none d-block">
                         HVL-ZAB-101
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-zab-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-ZAB-101</span>
                             </div>
                         </div>
@@ -1227,7 +1227,7 @@ layout: skeleton
             <label for="aciklama">Mesaj</label>
             <textarea class="form-control" id="aciklama" name="aciklama" rows="3"></textarea>
         </div>
-        <button type="submit" id="contactButton" class="btn btn-primary">Gönder</button>
+        <button type="submit" id="contactButton" class="btn btn-primary btn-color-low">Gönder</button>
     </form>
         </div>
       </div>
