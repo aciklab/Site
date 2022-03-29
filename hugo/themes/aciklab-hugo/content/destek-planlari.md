@@ -20,9 +20,9 @@ layout: skeleton
             <tbody id="summary" data-filter="target">
                 <tr class="bg-secondary">
                     <th class="text-uppercase"></th>
-                    <td><span class="text-dark font-weight-semibold">Giriş</span></td>
-                    <td><span class="text-dark font-weight-semibold">Standart</span></td>
-                    <td><span class="text-dark font-weight-semibold">İleri</span></td>
+                    <td><span class="font-weight-bold">Giriş</span></td>
+                    <td><span class="font-weight-bold">Standart</span></td>
+                    <td><span class="font-weight-bold">İleri</span></td>
                 </tr>
                 <tr>
                     <th>Önem Derecesi 1</th>
@@ -46,9 +46,9 @@ layout: skeleton
             <tbody id="general" data-filter="target">
                 <tr class="bg-secondary">
                     <th class="text-uppercase"></th>
-                    <td><span class="text-dark font-weight-semibold">Giriş</span></td>
-                    <td><span class="text-dark font-weight-semibold">Standart</span></td>
-                    <td><span class="text-dark font-weight-semibold">İleri</span></td>
+                    <td><span class="font-weight-bold">Giriş</span></td>
+                    <td><span class="font-weight-bold">Standart</span></td>
+                    <td><span class="font-weight-bold">İleri</span></td>
                 </tr>
                 <tr>
                     <th>Erişim Metodu</th>
@@ -72,9 +72,9 @@ layout: skeleton
             <tbody id="multimedia" data-filter="target">
                 <tr class="bg-secondary">
                     <th class="text-uppercase"></th>
-                    <td><span class="text-dark font-weight-semibold">Giriş</span></td>
-                    <td><span class="text-dark font-weight-semibold">Standart</span></td>
-                    <td><span class="text-dark font-weight-semibold">İleri</span></td>
+                    <td><span class="font-weight-bold">Giriş</span></td>
+                    <td><span class="font-weight-bold">Standart</span></td>
+                    <td><span class="font-weight-bold">İleri</span></td>
                 </tr>
                 <tr>
                     <th>Yerinde Müdahale</th>
@@ -104,9 +104,9 @@ layout: skeleton
             <tbody id="performance" data-filter="target">
                 <tr class="bg-secondary">
                     <th class="text-uppercase"></th>
-                    <td><span class="text-dark font-weight-semibold">Giriş</span></td>
-                    <td><span class="text-dark font-weight-semibold">Standart</span></td>
-                    <td><span class="text-dark font-weight-semibold">İleri</span></td>
+                    <td><span class="font-weight-bold">Giriş</span></td>
+                    <td><span class="font-weight-bold">Standart</span></td>
+                    <td><span class="font-weight-bold">İleri</span></td>
                 </tr>
                 <tr>
                     <th>Çağrı Merkezi Erişim</th>

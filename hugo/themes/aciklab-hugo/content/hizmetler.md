@@ -14,16 +14,12 @@ menu:
 layout: skeleton
 ---
 
-<section id="chart" class="d-flex  aos-init aos-animate" data-aos="fade-up" style="background-color: rgb(242, 242, 242); border-top: 4px #fff solid;">
-    <div class="container py-3">
-        <div class="row justify-content-center">
-            <img src="/images/hizmetler-cizelgesi.png" data-aos="fade-up" alt="Eğitim Çizelgesi" class="img-fluid">
-        </div>
-    </div>
-</section>
 <section class="d-flex aos-init aos-animate" data-aos="fade-up">
-    <div class="mt-lg-5 mb-md-0 mt-5 mb-5 mx-auto">
+    <div class="mt-lg-3 mb-md-0 mt-3 mb-5 mx-auto">
         <div class="container" data-aos="fade-up">
+            <div class="mb-5 text-center">
+                <h1>Hizmetler</h1>
+            </div>
             <div id="liman-hizmet-paketleri" class="row egitim-row mb-5">
                 <div class="col-12">
                     <h2 class="mb-3 float-left">Liman Hizmet Paketleri</h2>
@@ -185,7 +181,7 @@ layout: skeleton
                             <div class="card-content p-3 mt-4" style="background-color: rgba(0,0,0,0.05)">
                                 <p class="mb-1">Kurumlarda Pardus yaygınlaştırılmasına uygunluk durumunu belirleyebilmek için kuruma özgü yazılım ve donanımların ön analizi yapılmaktadır.</p>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Yazılım ve donanım envanter listesi tamamlanmış ve Pardus göç projesine dahil olmak isteyen kurumlar</span>
                                 </div>
                             </div>
@@ -210,7 +206,7 @@ layout: skeleton
                             <div class="card-content p-3 mt-4" style="background-color: rgba(0,0,0,0.05)">
                                 <p class="mb-1">Kurumda Pardus yaygınlaştırılmasına uygunluk durumunu belirleyebilmek için kuruma özgü yazılım ve donanımların detaylı analizi yapılmaktadır.</p>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Pardus Ön Analiz Çalışması yapılmış, Pardus yaygınlaştırılmasına uygun olan kurumlar.</span>
                                 </div>
                             </div>
@@ -237,7 +233,7 @@ layout: skeleton
                                 <p class="mb-1">Masaüstü uygulamalar için; C, C++ ve Python gibi programlama dilleri kullanılmaktadır.</p>
                                 <p class="mb-1">Tarayıcı uygulamaları için PHP ve Python gibi programlama dilleri başta olmak üzere bir çok dilde geliştirme yapılmaktadır.</p>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Pardus kullanmaya başlayan kurumlar</span>
                                 </div>
                             </div>
@@ -263,7 +259,7 @@ layout: skeleton
                                 <p class="mb-1">Kurumda Pardus kullanımına yönelik yaygınlaştırma çalışması öncesinde Sunucu-İstemci mantığı ile çalışabildiği kavram ispat süreci yapılmaktadır.</p>
                                 <p class="mb-1">Dizin sunucu<br>DNS ve DHCP sunucu<br>10 Pardus istemci kurulumu</p>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Pardus Analiz çalışması yapılmış, PoC isteyen kurumlar.</span>
                                 </div>
                             </div>
@@ -288,7 +284,7 @@ layout: skeleton
                             <div class="card-content p-3 mt-4" style="background-color: rgba(0,0,0,0.05)">
                                 <p class="mb-1">Bu paket aşağıdakileri içermektedir:<br> Tek Lokasyon<br> Kuruma özgü preseed veya clone imajların oluşturulması<br> İmajın 100 bilgisayar üzerinde yaygınlaştırılması</p>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Pardus Analiz çalışması yapılmış, yaygınlaştırma yapmaya hazır istemcilerin bulunduğu kurumlar.</span>
                                 </div>
                             </div>

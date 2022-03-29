@@ -13,7 +13,7 @@ layout: skeleton
    <div class="container">
       <div class="row egitim-row" id="sss">
          <div class="col-12 mt-2 mb-4">
-            <h2 class="mb-4 float-left">Sıkça Sorulan Sorular</h2>
+            <h1 class="mb-3 text-center">Sıkça Sorulan Sorular</h1>
          </div>
          <div class="col-12">
             <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#s1">
