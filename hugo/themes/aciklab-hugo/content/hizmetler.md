@@ -29,10 +29,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#liman-paketi">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px;">
                             <b>Açık Kaynak Liman Paketi</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="liman-paketi" data-parent="#liman-hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -50,10 +50,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#poc-liman">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Liman Kavram İspatı Kurulumu</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="poc-liman" data-parent="#liman-hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -71,10 +71,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#liman-kurulumu">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px;">
                             <b>Liman Canlı Ortam Kurulumu</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="liman-kurulumu" data-parent="#liman-hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -92,10 +92,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#liman-gelistirme">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Liman Ek Geliştirme Hizmeti</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="liman-gelistirme" data-parent="#liman-hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -121,10 +121,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#postgresql">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px;">
                             <b>PostgreSQL</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="postgresql" data-parent="#acik-hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -136,21 +136,21 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Openstack</b>
                         </span>
                     </a>
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Ansible</b>
                         </span>
                     </a>
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Zimbra</b>
                         </span>
                     </a>
@@ -165,10 +165,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#on-analiz">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px;">
                             <b>Pardus Ön Analiz Çalışması</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="on-analiz" data-parent="#hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -190,10 +190,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#analiz">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Pardus Analiz Çalışması</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="analiz" data-parent="#hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -215,10 +215,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#acik-kaynak">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px;">
                             <b>Açık Kaynak Yazılım Geliştirme</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="acik-kaynak" data-parent="#hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -242,10 +242,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#poc-calismasi">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             <b>Pardus Kavram İspat (PoC) Çalışması</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="poc-calismasi" data-parent="#hizmet-paketleri">
                         <div class="card card-body mb-3">
@@ -268,10 +268,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#yayginlastirma">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px;">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px;">
                             <b>Pardus Yaygınlaştırma Çalışması</b>
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="yayginlastirma" data-parent="#hizmet-paketleri">
                         <div class="card card-body mb-3">

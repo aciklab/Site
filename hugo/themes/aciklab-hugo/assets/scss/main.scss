@@ -378,11 +378,6 @@ section#comparison {
   .fa-6x {
     font-size: 4em !important;
   }
-
-  .egitim-box .feather-chevron-down,
-  .egitim-box-uzman .feather-chevron-down {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -392,13 +387,6 @@ section#comparison {
 
   #chart {
     padding: 0 15px !important;
-  }
-
-  .egitim-box .fa,
-  .egitim-box-uzman .fa {
-    &:first-of-type {
-      display: none;
-    }
   }
 
   .carousel-inner {
@@ -647,6 +635,24 @@ thead {
   border-right: 0;
 }
 
+.bottom-nav > li {
+  &:last-child {
+    margin-top: -4px;
+    float: right !important;
+    padding-right: 14px;
+    margin-right: 14px;
+    background: #E4003A;
+    border-radius: 55px;
+    transition: 0.3s all;
+    a::before {
+      content: none;
+    }
+    &:hover {
+      background: #B8092E;
+    }
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .bottom-navbar {
     flex-grow: 1;
@@ -659,23 +665,7 @@ thead {
   .nav-item-2 {
     float: left;
   }
-  .bottom-nav > li {
-    &:last-child {
-      margin-top: -4px;
-      float: right !important;
-      padding-right: 14px;
-      margin-right: 14px;
-      background: #E4003A;
-      border-radius: 55px;
-      transition: 0.3s all;
-      a::before {
-        content: none;
-      }
-      &:hover {
-        background: #B8092E;
-      }
-    }
-  }
+  
   #navbar > ul > li:nth-child(2) > a::before {
     visibility: visible;
     width: 100%;
@@ -683,6 +673,12 @@ thead {
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1.big {
+    font-size: 48px;
   }
 }
 
@@ -782,7 +778,8 @@ thead {
   border: 1px solid #e7e7e7;
 }
 .bg-secondary {
-  background-color: #f7f7f7 !important;
+  background-color: rgba(17, 59, 106, 1)!important;
+  color: #fff !important;
 }
 
 .modal-header, .modal-footer {

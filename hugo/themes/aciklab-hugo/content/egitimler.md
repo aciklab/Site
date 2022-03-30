@@ -33,11 +33,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-parsy-101">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px;">
-                            <b>HVL-PARSY-101</b> (Temel):<br class="d-md-none d-block">
-                            GNU/Linux Sistem Yönetimi
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px;">
+                            GNU/Linux Sistem Yönetimi (Temel)
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-101" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -85,11 +84,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-parsy-102">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-102</b> (İleri):<br class="d-md-none d-block">
-                            GNU/Linux Sistem Yönetimi
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                            GNU/Linux Sistem Yönetimi (İleri)
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-102" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -135,11 +133,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-partd-103">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARTD-103</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             Pardus Teknik Destek (Sunucu)
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-partd-103" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -182,11 +179,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-partd-104">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARTD-104</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             Pardus Teknik Destek (İstemci)
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-partd-104" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -229,10 +225,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#teknoloji-kamplari">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>Teknoloji Kampları</b>
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                            Teknoloji Kampları
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="teknoloji-kamplari" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -244,10 +240,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#farkindalik">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>Farkındalık Eğitimleri</b>
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                            Farkındalık Eğitimleri
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="farkindalik" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -268,11 +264,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-201">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-201</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             OpenLDAP Dizin Sistemi
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-201" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
@@ -316,11 +311,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-202">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-202</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             SAMBA DC Etki Alanı
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-202" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
@@ -362,11 +356,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-203">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-203</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             Sistem Yöneticileri için Betik Yazımı
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-203" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
@@ -410,11 +403,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-204">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-204</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             DNS ve DHCP Sunucu Yönetimi
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-204" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
@@ -463,11 +455,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-sql-101">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-SQL-101</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             SQL Eğitimi 1
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-sql-101" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
@@ -517,11 +508,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-sql-102">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-SQL-102</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         SQL Eğitimi 2
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-sql-102" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -579,11 +569,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsql-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-PGSQL-101</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         PSQL Eğitimi 1
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsql-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -634,11 +623,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsql-102">
-                        <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PGSQL-102</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             PSQL Eğitimi 2
                         </span>
-                        <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsql-102" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
@@ -686,11 +674,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgadm-201">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-PGADM-201</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         PostgreSQL Performans Yönetimi
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgadm-201" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -733,11 +720,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgadm-202">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-PGADM-202</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         PostgreSQL Cluster Yönetimi
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgadm-202" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -781,11 +767,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsys-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-PGSYS-101</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         Sistem Yöneticileri İçin PostgreSQL
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsys-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -834,11 +819,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-bgd-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-BGD-101</b>:<br class="d-md-none d-block">
-                        HVL-BGD-101
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        Big Data Temelleri (Temel)
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-bgd-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -890,11 +874,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-bgd-102">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-BGD-102</b>:<br class="d-md-none d-block">
-                        HVL-BGD-102
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        Big Data Temelleri (İleri)
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-bgd-102" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -945,11 +928,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-aky-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-AKY-101</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         Sistem Yöneticileri için Python Giriş
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-aky-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -1003,11 +985,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-kub-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-KUB-101</b>:<br class="d-md-none d-block">
-                        HVL-KUB-101
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        Kubernetes'e Giriş
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-kub-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -1058,11 +1039,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-cep-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-CEP-101</b>:<br class="d-md-none d-block">
-                        HVL-CEP-101
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        CEPH Eğitimi
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-cep-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
@@ -1117,11 +1097,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-zab-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2 ml-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-ZAB-101</b>:<br class="d-md-none d-block">
-                        HVL-ZAB-101
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        Zabbix'e Giriş
                     </span>
-                    <i class="feather-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-zab-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
