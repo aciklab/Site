@@ -37,6 +37,12 @@ $('#contact').on('submit', function (e) {
                 $("#uyari").html(`<div class="alert alert-success" role="alert">
                   ${data}
                 </div>`);
+            },
+            error: function (data) {
+                $('#contact')[0].reset();
+                $("#uyari").html(`<div class="alert alert-danger" role="alert">
+                  ${data.responseText}
+                </div>`);
             }
         });
       });

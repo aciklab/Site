@@ -26,7 +26,7 @@
             {{ if ne $paginator.PageNumber 1 }}
             <li class="page-item pagination__item pagination__item--first">
             <a class="page-link pagination__link pagination__link--first" href="{{ $paginator.First.URL }}">
-                <i class="fas fa-angle-double-left"></i>
+                <i class="feather-chevrons-left"></i>
             </a>
             </li>
             {{ end }}
@@ -35,7 +35,7 @@
             {{ if $paginator.HasPrev }}
             <li class="page-item pagination__item pagination__item--previous">
             <a href="{{ $paginator.Prev.URL }}" class="page-link pagination__link pagination__link--previous">
-                <i class="fas fa-angle-left"></i>
+                <i class="feather-chevron-left"></i>
             </a>
             </li>
             {{ end }}
@@ -102,7 +102,7 @@
             {{ if $paginator.HasNext }}
             <li class="page-item pagination__item pagination__item--next">
             <a href="{{ $paginator.Next.URL }}" class="page-link pagination__link pagination__link--next">
-                <i class="fas fa-angle-right"></i>
+                <i class="feather-chevron-right"></i>
             </a>
             </li>
             {{ end }}
@@ -111,7 +111,7 @@
             {{ if ne $paginator.PageNumber $paginator.TotalPages }}
             <li class="page-item pagination__item pagination__item--last">
             <a class="page-link pagination__link pagination__link--last" href="{{ $paginator.Last.URL }}">
-                <i class="fas fa-angle-double-right"></i>
+                <i class="feather-chevrons-right"></i>
             </a>
             </li>
             {{ end }}

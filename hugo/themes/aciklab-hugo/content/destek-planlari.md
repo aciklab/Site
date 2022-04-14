@@ -20,9 +20,9 @@ layout: skeleton
             <tbody id="summary" data-filter="target">
                 <tr class="bg-secondary">
                     <th class="text-uppercase"></th>
-                    <td><span class="text-dark font-weight-semibold">Giriş</span></td>
-                    <td><span class="text-dark font-weight-semibold">Standart</span></td>
-                    <td><span class="text-dark font-weight-semibold">İleri</span></td>
+                    <td><span class="font-weight-bold">Giriş</span></td>
+                    <td><span class="font-weight-bold">Standart</span></td>
+                    <td><span class="font-weight-bold">İleri</span></td>
                 </tr>
                 <tr>
                     <th>Önem Derecesi 1</th>
@@ -46,9 +46,9 @@ layout: skeleton
             <tbody id="general" data-filter="target">
                 <tr class="bg-secondary">
                     <th class="text-uppercase"></th>
-                    <td><span class="text-dark font-weight-semibold">Giriş</span></td>
-                    <td><span class="text-dark font-weight-semibold">Standart</span></td>
-                    <td><span class="text-dark font-weight-semibold">İleri</span></td>
+                    <td><span class="font-weight-bold">Giriş</span></td>
+                    <td><span class="font-weight-bold">Standart</span></td>
+                    <td><span class="font-weight-bold">İleri</span></td>
                 </tr>
                 <tr>
                     <th>Erişim Metodu</th>
@@ -64,29 +64,29 @@ layout: skeleton
                 </tr>
                 <tr>
                     <th>Uzaktan Bağlantı</th>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
                 </tr>
             </tbody>
             <tbody id="multimedia" data-filter="target">
                 <tr class="bg-secondary">
                     <th class="text-uppercase"></th>
-                    <td><span class="text-dark font-weight-semibold">Giriş</span></td>
-                    <td><span class="text-dark font-weight-semibold">Standart</span></td>
-                    <td><span class="text-dark font-weight-semibold">İleri</span></td>
+                    <td><span class="font-weight-bold">Giriş</span></td>
+                    <td><span class="font-weight-bold">Standart</span></td>
+                    <td><span class="font-weight-bold">İleri</span></td>
                 </tr>
                 <tr>
                     <th>Yerinde Müdahale</th>
-                    <td><center><i class="fas fa-times"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
                 </tr>
                 <tr>
                     <th>Lokal Repo Sunucu Ortamı</th>
-                    <td><center><i class="fas fa-times"></i></center></td>
-                    <td><center><i class="fas fa-times"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
                 </tr>
                 <tr>
                     <th>Müdahale Süresi</th>
@@ -96,23 +96,23 @@ layout: skeleton
                 </tr>
                 <tr>
                     <th>Açık Kaynak Ürün Desteği</th>
-                    <td><center><i class="fas fa-times"></i></center></td>
-                    <td><center><i class="fas fa-times"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
+                    <td><center><i class="feather-x"></i></center></td>
                     <td>Sınırsız *</td>
                 </tr>
             </tbody>
             <tbody id="performance" data-filter="target">
                 <tr class="bg-secondary">
                     <th class="text-uppercase"></th>
-                    <td><span class="text-dark font-weight-semibold">Giriş</span></td>
-                    <td><span class="text-dark font-weight-semibold">Standart</span></td>
-                    <td><span class="text-dark font-weight-semibold">İleri</span></td>
+                    <td><span class="font-weight-bold">Giriş</span></td>
+                    <td><span class="font-weight-bold">Standart</span></td>
+                    <td><span class="font-weight-bold">İleri</span></td>
                 </tr>
                 <tr>
                     <th>Çağrı Merkezi Erişim</th>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
-                    <td><center><i class="fas fa-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
+                    <td><center><i class="feather-check"></i></center></td>
                 </tr>
                 <tr>
                     <th>Health Check Raporu</th>

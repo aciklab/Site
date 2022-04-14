@@ -13,14 +13,14 @@ layout: skeleton
    <div class="container">
       <div class="row egitim-row" id="sss">
          <div class="col-12 mt-2 mb-4">
-            <h2 class="mb-4 float-left">Sıkça Sorulan Sorular</h2>
+            <h1 class="mb-3 text-center">Sıkça Sorulan Sorular</h1>
          </div>
          <div class="col-12">
             <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#s1">
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                     Linux nedir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s1" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -33,7 +33,7 @@ layout: skeleton
              <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                "GNU/Linux" ile "Linux" arasında bir fark var mı?
              </span>
-             <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+             <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
          </a>
          <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s3" data-parent="#sss">
              <div class="card card-body mb-3">
@@ -49,7 +49,7 @@ layout: skeleton
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Linux tescilli bir marka mıdır?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s4" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -62,7 +62,7 @@ layout: skeleton
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Özgür yazılım nedir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s5" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -75,7 +75,7 @@ layout: skeleton
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Açık kaynak nedir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s6" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -88,7 +88,7 @@ layout: skeleton
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Her açık kaynak yazılım özgür yazılım mıdır?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s7" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -121,7 +121,7 @@ Hangi terimi kullandığınız sadece yazılım vizyonunuza bağlıdır.
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Pardus nedir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s15" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -134,7 +134,7 @@ Hangi terimi kullandığınız sadece yazılım vizyonunuza bağlıdır.
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Pardus’us diğer dağıtımlardan farkı nedir? 
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s16" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -147,7 +147,7 @@ Hangi terimi kullandığınız sadece yazılım vizyonunuza bağlıdır.
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Pardus neden Debian tabanlı olarak geliştirilmeye devam etmektedir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s17" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -166,7 +166,7 @@ Güncel teknolojiler ile eşzamanlı ve eşgüdümlü olabilme yeteneği: Pisi p
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Pardus’un Debian tabanlı olmasının sağladığı avantajlar nelerdir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s18" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -191,7 +191,7 @@ Yetenekli geliştirme araçları ve paket yönetim sistemi: Debian tarafından g
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Havelsan Pardus Projesine ne zaman başladı?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s19" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -204,7 +204,7 @@ Yetenekli geliştirme araçları ve paket yönetim sistemi: Debian tarafından g
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Özgür işletim sistemi olarak yalnız GNU/Linux mu var?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s8" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -218,7 +218,7 @@ Bunlara UNIX türevleri FreeBSD, NetBSD, OpenBSD, BeOS klonu Haiku OS, Windows N
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Mac OSX bir Linux dağıtımı mıdır?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s9" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -231,7 +231,7 @@ Bunlara UNIX türevleri FreeBSD, NetBSD, OpenBSD, BeOS klonu Haiku OS, Windows N
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Linux dağıtımı nedir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s10" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -246,7 +246,7 @@ https://distrowatch.com/
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Açık kaynak kod kriterleri nelerdir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s11" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -270,7 +270,7 @@ https://distrowatch.com/
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Açık Kaynak Kod Lisanslama modelleri nelerdir?
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s12" data-parent="#sss">
                 <div class="card card-body mb-3">
@@ -286,7 +286,7 @@ GPL-Uyumlu Model’de de, lisans yasal olarak GPL lisanslama yapısına bağlı 
                 <span class="float-left mt-md-2 mt-0 pl-2 pb-2" style="font-size: 20px;">
                   Özgür ve Açık Kaynak Kodlu Yazılımın yararları nelerdir? 
                 </span>
-                <i class="fas fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
             </a>
             <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="s14" data-parent="#sss">
                 <div class="card card-body mb-3">

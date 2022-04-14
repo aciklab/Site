@@ -6,10 +6,6 @@ menu:
         identifier: "urunler"
         weight: 4
         name: "Ürünler"
-    footer:
-        name: "Ürünler"
-        parent: diger
-        weight: 4
 ---
 
 Genel Kamu Lisansı'na sahip Özgür ve Açık Kaynak Kodlu yazılımlar ile herhangi bir firmaya veya ülkeye bağımlı olmadan mevcut sistemlerinizi yönetebilirsiniz.

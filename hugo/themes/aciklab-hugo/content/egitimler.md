@@ -18,17 +18,12 @@ menu:
 layout: skeleton
 ---
 
-<section id="chart" class="d-flex aos-init aos-animate" data-aos="fade-up" style="background-color: rgb(242, 242, 242); border-top: 4px #fff solid;">
-    <div class="container py-3">
-        <div class="row">
-            <img src="/images/egitim-cizelgesi.png" data-aos="fade-up" alt="Eğitim Çizelgesi" class="img-fluid">
-        </div>
-    </div>
-</section>
-
 <section class="d-flex aos-init aos-animate" data-aos="fade-up">
-    <div class="mt-lg-5 mb-md-0 mt-5 mb-5 mx-auto">
+    <div class="mt-lg-3 mb-md-0 mt-3 mb-5 mx-auto">
         <div class="container">
+            <div class="mb-5 text-center">
+                <h1>Eğitimler</h1>
+            </div>
             <div id="temel-egitimler" class="row egitim-row" data-aos="fade-up">
                 <div class="col-12">
                     <h2 class="mb-3 float-left">Temel Eğitimler</h2>
@@ -38,29 +33,28 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-parsy-101">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px;">
-                            <b>HVL-PARSY-101</b> (Temel):<br class="d-md-none d-block">
-                            GNU/Linux Sistem Yönetimi
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px;">
+                            GNU/Linux Sistem Yönetimi (Temel)
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-101" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">Katılım ön şartı yoktur.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -77,11 +71,11 @@ layout: skeleton
                                     <li>Temel Kullanıcı Yönetimi ve Yetkilendirme</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Genel katılım, özellikle çeşitli Debian GNU/Linux tabanlı sistemlerini yönetmek isteyen kullanıcılara yöneliktir.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -90,25 +84,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-parsy-102">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-102</b> (İleri):<br class="d-md-none d-block">
-                            GNU/Linux Sistem Yönetimi
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                            GNU/Linux Sistem Yönetimi (İleri)
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-102" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-101</span>
                                 </div>
                             </div>
@@ -127,11 +120,11 @@ layout: skeleton
                                     <li>Ağ Dosya Sistemleri</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Genel katılım, özellikle çeşitli Debian GNU/Linux tabanlı sistemlerini yönetmek isteyen kullanıcılara yöneliktir.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -140,25 +133,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-partd-103">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARTD-103</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             Pardus Teknik Destek (Sunucu)
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-partd-103" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -174,11 +166,11 @@ layout: skeleton
                                     <li>Kullanışlı GNU/Linux komutları</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Sistem yöneticileri ve sistem teknik uzmanlarını hedefleyen bir eğitimdir.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -187,25 +179,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-partd-104">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARTD-104</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             Pardus Teknik Destek (İstemci)
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-partd-104" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -221,11 +212,11 @@ layout: skeleton
                                     <li>Ekran kartı ve sürücü ayarlamaları</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Sistem yöneticileri ve sistem teknik uzmanlarını hedefleyen bir eğitimdir.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -234,10 +225,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#teknoloji-kamplari">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>Teknoloji Kampları</b>
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                            Teknoloji Kampları
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="teknoloji-kamplari" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -249,10 +240,10 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#farkindalik">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>Farkındalık Eğitimleri</b>
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                            Farkındalık Eğitimleri
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="farkindalik" data-parent="#temel-egitimler">
                         <div class="card card-body mb-3">
@@ -273,25 +264,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-201">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-201</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             OpenLDAP Dizin Sistemi
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-201" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -308,11 +298,11 @@ layout: skeleton
                                     <li>SASL yöntemi ile dış kaynak parola kullanımı</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Sistem yöneticileri, sistem teknik uzmanları ve sistem programcılarını hedefleyen bir eğitimdir.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -321,25 +311,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-202">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-202</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             SAMBA DC Etki Alanı
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-202" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -354,11 +343,11 @@ layout: skeleton
                                     <li>SAMBA DC’nin MS RSAT ile yönetimi</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Sistem yöneticileri, sistem teknik uzmanları ve sistem programcılarını hedefleyen bir eğitimdir.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -367,25 +356,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-203">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-203</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             Sistem Yöneticileri için Betik Yazımı
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-203" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -402,11 +390,11 @@ layout: skeleton
                                     <li>QT ile Python üzerinde basit arayüz geliştirme</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Sistem yöneticileri, sistem teknik uzmanları ve sistem programcılarını hedefleyen bir eğitimdir.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -415,25 +403,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-parsy-204">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PARSY-204</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             DNS ve DHCP Sunucu Yönetimi
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-parsy-204" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün x 8 saat</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PARSY-102</span>
                                 </div>
                             </div>
@@ -448,11 +435,11 @@ layout: skeleton
                                     <li>Sanal makineler üzerinde DNS ve DHCP sunucu-istemci uygulamaları</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Sistem yöneticileri ve sistem teknik uzmanlarını hedefleyen bir eğitimdir.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                             </div>
@@ -468,25 +455,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-sql-101">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-SQL-101</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             SQL Eğitimi 1
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-sql-101" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">3 gün</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-SQL-102</span>
                                 </div>
                             </div>
@@ -504,15 +490,15 @@ layout: skeleton
                                     <li>Veritabanında View Kullanımı</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Hedef Katılımcı: Genel Kitle</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                        <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                        <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                         kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                                 </div>
@@ -522,25 +508,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-sql-102">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-SQL-102</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         SQL Eğitimi 2
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-sql-102" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">3 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-SQL-102</span>
                             </div>
                         </div>
@@ -566,15 +551,15 @@ layout: skeleton
                                 <li>...</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Genel Kitle</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -584,25 +569,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsql-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-PGSQL-101</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         PSQL Eğitimi 1
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsql-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-PGSQL-101</span>
                             </div>
                         </div>
@@ -621,15 +605,15 @@ layout: skeleton
                                 <li>JIT</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Veri Tabanı ve Sistem Yöneticileri</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -639,25 +623,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                     <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsql-102">
-                        <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                            <b>HVL-PGSQL-102</b>:<br class="d-md-none d-block">
+                        <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                             PSQL Eğitimi 2
                         </span>
-                        <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                        <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                     </a>
                     <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsql-102" data-parent="#uzman-egitimler">
                         <div class="card card-body mb-3">
                             <div class="information-bar d-flex flex-md-row flex-column">
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                    <i class="feather-clock float-left fa-2x mr-3"></i>
                                     <span class="float-left">5 gün</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                    <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                    <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                     <span class="float-left">HAVELSAN AKADEMİ</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                    <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                    <i class="feather-tag float-left fa-2x mr-3"></i>
                                     <span class="float-left">HVL-PGSQL-102</span>
                                 </div>
                             </div>
@@ -673,15 +656,15 @@ layout: skeleton
                                     <li>Yalıtım seviyeleri</li>
                                 </ul>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Hedef Katılımcı: Veri Tabanı ve Sistem Yöneticileri</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                                 </div>
                                 <div class="d-flex align-items-center float-left mr-5">
-                                        <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                        <i class="feather-users fa-2x mr-3 my-2"></i>
                                     <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                         kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                                 </div>
@@ -691,25 +674,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgadm-201">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-PGADM-201</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         PostgreSQL Performans Yönetimi
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgadm-201" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">3 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-PGADM-201</span>
                             </div>
                         </div>
@@ -720,15 +702,15 @@ layout: skeleton
                                 <li>SORGU Optimizasynu</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Veri Tabanı ve Sistem Yöneticileri</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -738,25 +720,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgadm-202">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-PGADM-202</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         PostgreSQL Cluster Yönetimi
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgadm-202" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">3 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-PGADM-202</span>
                             </div>
                         </div>
@@ -768,15 +749,15 @@ layout: skeleton
                                 <li>Postgresql ile Yüksek Erişilebilirlik - Repmgr</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Veri Tabanı ve Sistem Yöneticileri</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -786,25 +767,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box" data-toggle="collapse" data-target="#hvl-pgsys-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-PGSYS-101</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         Sistem Yöneticileri İçin PostgreSQL
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-pgsys-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">2 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-PGSYS-101</span>
                             </div>
                         </div>
@@ -815,15 +795,15 @@ layout: skeleton
                                 <li>Sunucu yönetimi</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Veri Tabanı ve Sistem Yöneticileri</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -839,25 +819,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-bgd-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-BGD-101</b>:<br class="d-md-none d-block">
-                        HVL-BGD-101
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        Big Data Temelleri (Temel)
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-bgd-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-BGD-101</span>
                             </div>
                         </div>
@@ -877,15 +856,15 @@ layout: skeleton
                                 <li>Cloudera ile Big Data Servislerinin Kurulumu ve HUE arayüzü</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Veri Tabanı ve Sistem Yöneticileri</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -895,25 +874,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-bgd-102">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-BGD-102</b>:<br class="d-md-none d-block">
-                        HVL-BGD-102
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        Big Data Temelleri (İleri)
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-bgd-102" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-BGD-102</span>
                             </div>
                         </div>
@@ -932,15 +910,15 @@ layout: skeleton
                                 <li>ElasticSearch ile Log Toplanması</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Veri Tabanı ve Sistem Yöneticileri</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -950,25 +928,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-aky-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-AKY-101</b>:<br class="d-md-none d-block">
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
                         Sistem Yöneticileri için Python Giriş
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-aky-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">3 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-AKY-101</span>
                             </div>
                         </div>
@@ -989,16 +966,16 @@ layout: skeleton
                                 <li>Flask ile HTTP sunucusu oluşturma</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Sistem yöneticileri ve sistem teknik uzmanlarını
                                 hedefleyen bir eğitimdir.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -1008,25 +985,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-kub-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-KUB-101</b>:<br class="d-md-none d-block">
-                        HVL-KUB-101
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        Kubernetes'e Giriş
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-kub-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-KUB-101</span>
                             </div>
                         </div>
@@ -1045,15 +1021,15 @@ layout: skeleton
                                 <li>Uygulamalar</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Sistem Yöneticileri, DevOps, Yazılım Geliştiricileri</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -1063,25 +1039,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-cep-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-CEP-101</b>:<br class="d-md-none d-block">
-                        HVL-CEP-101
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        CEPH Eğitimi
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-cep-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-CEP-101</span>
                             </div>
                         </div>
@@ -1104,15 +1079,15 @@ layout: skeleton
                                 <li>OSD’lere yeni disk ekleme</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Sistem Yöneticileri, DevOps</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -1122,25 +1097,24 @@ layout: skeleton
                 </div>
                 <div class="col-12">
                 <a href="#" class="collapsed d-block w-100 p-2 float-left mb-3 egitim-box-uzman" data-toggle="collapse" data-target="#hvl-zab-101">
-                    <span class="float-left mt-md-2 mt-0 mb-2" style="font-size: 20px; margin-top: 9px;">
-                        <b>HVL-ZAB-101</b>:<br class="d-md-none d-block">
-                        HVL-ZAB-101
+                    <span class="float-left mt-md-2 mt-0 mb-md-2 mb-0 ml-2" style="font-size: 20px; margin-top: 9px;">
+                        Zabbix'e Giriş
                     </span>
-                    <i class="fa fa-chevron-down fa-lg mr-3 float-right mt-3"></i>
+                    <i class="feather-chevron-down fa-lg mr-2 mr-md-3 float-right mt-2 mt-md-3"></i>
                 </a>
                 <div class="collapse float-left w-100" style="margin-top:-1rem!important" id="hvl-zab-101" data-parent="#uzman-egitimler">
                     <div class="card card-body mb-3">
                         <div class="information-bar d-flex flex-md-row flex-column">
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-hourglass-half float-left fa-2x mr-3"></i>
+                                <i class="feather-clock float-left fa-2x mr-3"></i>
                                 <span class="float-left">5 gün</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0 mb-3">
-                                <i class="fa fa-map float-left fa-2x mr-3"></i>
+                                <i class="feather-map-pin float-left fa-2x mr-3"></i>
                                 <span class="float-left">HAVELSAN AKADEMİ</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5 mb-md-0">
-                                <i class="fa fa-comment float-left fa-2x mr-3"></i>
+                                <i class="feather-tag float-left fa-2x mr-3"></i>
                                 <span class="float-left">HVL-ZAB-101</span>
                             </div>
                         </div>
@@ -1159,15 +1133,15 @@ layout: skeleton
                                 <li>Canlı sistemde Testler</li>
                             </ul>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Hedef Katılımcı: Sistem Yöneticileri</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Katılımcı sayısı 10-12 kişi olacaktır.</span>
                             </div>
                             <div class="d-flex align-items-center float-left mr-5">
-                                    <svg style="width: 48px; height: 48px;" class="d-md-block d-none float-left mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                    <i class="feather-users fa-2x mr-3 my-2"></i>
                                 <span class="float-left">Müşteri Lokasyonu ve Online yapılacak eğitimlerde katılımcılar
                                     kendi bilgisayar alt yapısı ile katılım sağlayacaktır</span>
                             </div>
@@ -1227,7 +1201,7 @@ layout: skeleton
             <label for="aciklama">Mesaj</label>
             <textarea class="form-control" id="aciklama" name="aciklama" rows="3"></textarea>
         </div>
-        <button type="submit" id="contactButton" class="btn btn-primary">Gönder</button>
+        <button type="submit" id="contactButton" class="btn btn-primary btn-color-low">Gönder</button>
     </form>
         </div>
       </div>
