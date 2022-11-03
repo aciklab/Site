@@ -1176,6 +1176,9 @@ layout: skeleton
         }
     </style>
     <div id="uyari"></div>
+    <div id="bilgilendirme" style="margin-bottom: 15px; color: red;">
+        Eğitimlerimiz sadece kurumsal müşterilerimize verilmektedir.
+    </div>
     <form id="contact" action method="post">
         <div class="form-group">
             <label for="kurum-adi">Kurum Adı</label>
