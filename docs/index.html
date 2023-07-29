@@ -14,9 +14,33 @@
 <link rel=stylesheet href=/fonts/inter.css>
 <link rel=stylesheet href=/fonts/feather.css>
 <link rel=stylesheet href=https://aciklab.org/scss/main.min.css>
+
+<style>
+
+#popup {
+    display:none;
+    position:absolute;
+    margin-left: 100px;
+    width: 1200px;
+}
+
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+    $("#popup").hide().fadeIn(1000);
+});
+</script>
 </head>
 </html>
 <body>
+
+
+
+
+
 <header id=header>
 <div class="container-fluid nav-bg" data-aos=fade-down>
 <div class="container py-3">
@@ -54,6 +78,13 @@
 </div>
 </div>
 <section id=hero class="pt-lg-5 pt-0 pb-5">
+
+
+    <div id="popup" class="popup panel panel-primary">
+        <a href="https://aciklab.org/iletisim/"> <img width="1200px" src="https://aciklab.org/images/cbddo-hazir.jpeg" alt="popup"></a>
+    </div>
+
+    
 <div id=hero-carousel class="carousel container slide pb-5" data-ride=carousel>
 <div class="carousel-inner row">
 <div class="carousel-item active">
